@@ -1,0 +1,60 @@
+{
+  "model": "Qwen/Qwen3.5-4B",
+  "lora": {
+    "rank": 16,
+    "alpha": 32,
+    "dropout": 0.05,
+    "targets": "all-linear"
+  },
+  "optimizer": {
+    "name": "AdamW",
+    "learning_rate": 0.0001,
+    "gradient_clip": 1,
+    "microbatch": 1,
+    "accumulation": 8
+  },
+  "reference": {
+    "steps": 300,
+    "input_tokens": 2048,
+    "shuffle_seed": 20261027,
+    "generation_input_tokens": 3072,
+    "generation_tokens": 128,
+    "memory_cap": 128
+  },
+  "mixed": {
+    "steps": 400,
+    "musique_examples": 1917,
+    "2wiki_examples": 3000
+  },
+  "prose": {
+    "steps": 250,
+    "input_tokens": 1536,
+    "generation_tokens": 160,
+    "examples": 1917
+  },
+  "summary": {
+    "steps": 300,
+    "input_tokens": 2048,
+    "generation_tokens": 160
+  },
+  "extractive": {
+    "steps": 300,
+    "input_tokens": 2048,
+    "generation_tokens": 160
+  },
+  "reader": {
+    "max_new_tokens": 24,
+    "thinking": false,
+    "do_sample": false
+  },
+  "bootstrap": {
+    "draws": 10000,
+    "seed": 20261102
+  },
+  "recorded_runtime": {
+    "python": "3.10.12",
+    "torch": "2.14.1+cu130",
+    "transformers": "5.20.2",
+    "peft": "0.21.2"
+  }
+}

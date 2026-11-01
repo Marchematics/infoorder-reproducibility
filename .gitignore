@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.venv/
+models/
+sota/data/*.jsonl
+sota/data/*.json
+sota/results/
+sota/infoorder/*adapter/
+results/*.json
+results/*.csv
+*.log
+.DS_Store

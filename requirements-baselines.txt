@@ -1,0 +1,4 @@
+-r requirements.txt
+llmlingua>=0.2
+tiktoken
+nltk

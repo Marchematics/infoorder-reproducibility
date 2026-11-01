@@ -1,0 +1,9 @@
+{
+  "manifest_hotpotqa_500.jsonl": "bfe33211a9131ee7012b7d488710d56f85b4373d12012b918bf7415f9ce074b9",
+  "twowiki_chain_sft_train.jsonl": "3d87654fdb4e37c5ab4e296499d0d01bfc3dc77482d2046bb7056337fbde08e1",
+  "chain_sft_train.jsonl": "68f36761933e3c4bc72d5b22c89f7f54fc62cee05bb5cd4aef245c83cdb75700",
+  "manifest_2wiki_fixed_300.jsonl": "0717bcf509bd6dee38c29c4894a2f36bf19d6be1e80d8b365dd1d841786e61bf",
+  "manifest_500.jsonl": "b8f95e991ace48f4c93985d1294fe027588745b45e253122ad6dab9aa6241de4",
+  "simple_lookup_200.jsonl": "25cec94e08b05c9736d49ce253890efb82fb820529d7a8c763e0c544da0ae7e2",
+  "controlled_bothcorrect_200.jsonl": "b6d6bacb2d2891c2d9d35ebbe1e380dd5573615dbeac8dc2ceb7c44601e20634"
+}
