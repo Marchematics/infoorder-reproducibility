@@ -30,7 +30,7 @@ def analyze(folder):
     comparisons={}
     for tag,left,right in [
         ('chain_vs_summary','musique500_chain_qwen_b128','musique500_summary_b128_full'),
-        ('chain_vs_prose','musique500_chain_qwen_b128','musique500_summary_aware_v2_b128'),
+        ('chain_vs_prose','musique500_chain_qwen_b128','musique500_aas_matched_b128'),
         ('2wiki_adaptation','2wiki_multidata_chain_b128','2wiki_v2_chain_b128'),
         ('2wiki_vs_summary','2wiki_multidata_chain_b128','2wiki_v2_summary_b128')]:
         if left in runs and right in runs:comparisons[tag]=compare(runs[left],runs[right])

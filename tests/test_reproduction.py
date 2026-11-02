@@ -36,7 +36,7 @@ class ReproductionTests(unittest.TestCase):
         self.assertAlmostEqual(result['runs']['musique500_chain_qwen_b128']['em'],.726)
         self.assertAlmostEqual(result['runs']['2wiki_multidata_chain_b128']['em'],224/300)
         self.assertAlmostEqual(comparisons['chain_vs_summary']['difference'],.316)
-        self.assertAlmostEqual(comparisons['chain_vs_prose']['difference'],.204)
+        self.assertAlmostEqual(comparisons['chain_vs_prose']['difference'],.192)
         self.assertAlmostEqual(comparisons['2wiki_adaptation']['difference'],.21)
         self.assertAlmostEqual(comparisons['retained_bindings']['difference'],16/60)
         self.assertEqual(comparisons['chain_vs_summary']['ci95'], [.266,.366])

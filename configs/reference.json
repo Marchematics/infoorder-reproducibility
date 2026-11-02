@@ -15,7 +15,7 @@
   },
   "reference": {
     "steps": 300,
-    "input_tokens": 2048,
+    "input_tokens": 1536,
     "shuffle_seed": 20261027,
     "generation_input_tokens": 3072,
     "generation_tokens": 128,
@@ -24,10 +24,11 @@
   "mixed": {
     "steps": 400,
     "musique_examples": 1917,
-    "2wiki_examples": 3000
+    "2wiki_examples": 3000,
+    "input_tokens": 2048
   },
   "prose": {
-    "steps": 250,
+    "steps": 300,
     "input_tokens": 1536,
     "generation_tokens": 160,
     "examples": 1917

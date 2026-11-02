@@ -27,3 +27,20 @@ python -m unittest discover -s tests
 `run_phi.py` provides the controlled Phi training, writing, and reading stages.
 Fixed inputs, targets, split IDs, and recorded per-question scores are included.
 See [DATA.md](DATA.md) for dataset sources.
+
+The training-target comparisons use `--target shuffled|no_relation|triples|answer|prose`.
+Prepare the additional targets and run evidence-only or five-block evaluation with:
+
+```bash
+python scripts/run_followups.py prepare
+python scripts/run_followups.py train-noq
+python scripts/run_followups.py future
+python scripts/run_followups.py train-update
+python scripts/run_followups.py train-append
+python scripts/run_followups.py recursive
+python scripts/run_followups.py retention
+```
+
+`run_followups.py lengths` measures lookup memory lengths.
+`analyze_followups.py` aggregates recorded scores; `score_retention.py` verifies coverage from saved memories on CPU.
+The experiment settings are in `configs/followups.json`.

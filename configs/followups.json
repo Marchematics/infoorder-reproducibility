@@ -1,0 +1,40 @@
+{
+  "future_queries": {
+    "candidate_histories": 200,
+    "eligible_histories": 79,
+    "queries": 159,
+    "prefix_passages": 12,
+    "memory_cap": 128
+  },
+  "target_comparisons": {
+    "training_records": 1917,
+    "steps": 300,
+    "training_tokens": 1536,
+    "lora_rank": 16,
+    "memory_cap": 128,
+    "permutation": "Permute and reindex prefixes; keep original #k references."
+  },
+  "recursive": {
+    "questions": 40,
+    "rounds": 5,
+    "reader_memory_cap": 128,
+    "max_new_tokens": 160,
+    "persistent_state": "Untruncated generation",
+    "direct_input": "First 128 + current-block tokens of arrived prefix",
+    "hop_coverage": "All decomposition hops, including final; macro average over questions",
+    "binding_coverage": "Entity-eligible hops; answer and extracted entity co-occur; zero for no eligible hop",
+    "gold_hops": 86,
+    "entity_eligible_hops": 42
+  },
+  "lookup_lengths": {
+    "pairs": 60,
+    "memory_cap": 128,
+    "corresponding_accuracy_policies": [
+      "full_history",
+      "trunc_128",
+      "chain",
+      "chain_table"
+    ],
+    "summary_and_facts": "Initial and update adapter order differs from the accuracy run."
+  }
+}

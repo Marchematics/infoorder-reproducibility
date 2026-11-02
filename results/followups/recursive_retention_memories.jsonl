@@ -1,0 +1,600 @@
+{"id": "2hop__123509_5385", "t": 1, "cond": "direct_cap", "memory": "1) Mark F. Green >> educated at => University of Tulsa; 2) How many people work in #1 ? => 10,000"}
+{"id": "2hop__123509_5385", "t": 1, "cond": "rec_chain", "memory": "1. #1 >> related to: University of Southern California"}
+{"id": "2hop__123509_5385", "t": 1, "cond": "rec_append", "memory": "1) What university is Mark F. Green related with? => University of Southern California"}
+{"id": "2hop__123509_5385", "t": 2, "cond": "direct_cap", "memory": "1) Mark F. Green >> educated at => University of Southern California; 2) How many people work in #1 ? => 42,000"}
+{"id": "2hop__123509_5385", "t": 2, "cond": "rec_chain", "memory": "1. Mark F. Green >> educated at: University of Oklahoma; 2. #1 >> related to: University of Southern California"}
+{"id": "2hop__123509_5385", "t": 2, "cond": "rec_append", "memory": "1) What university is Mark F. Green related with? => University of Southern California"}
+{"id": "2hop__123509_5385", "t": 3, "cond": "direct_cap", "memory": "1) Mark F. Green >> educated at => University of Oklahoma; 2) How many people work in #1 ? => 3000+"}
+{"id": "2hop__123509_5385", "t": 3, "cond": "rec_chain", "memory": "1. Mark F. Green >> educated at: University of Oklahoma; 2. #1 >> related to: University of Southern California"}
+{"id": "2hop__123509_5385", "t": 3, "cond": "rec_append", "memory": "1) What university is Mark F. Green related with? => University of Southern California"}
+{"id": "2hop__123509_5385", "t": 4, "cond": "direct_cap", "memory": "1) Mark F. Green >> educated at => University of Southern California; 2) How many people work in #1 ? => 150,000"}
+{"id": "2hop__123509_5385", "t": 4, "cond": "rec_chain", "memory": "1. Mark F. Green >> educated at: University of Oklahoma; 2. #1 >> related to: University of Southern California"}
+{"id": "2hop__123509_5385", "t": 4, "cond": "rec_append", "memory": "1) What university is Mark F. Green related with? => University of Southern California"}
+{"id": "2hop__123509_5385", "t": 5, "cond": "direct_cap", "memory": "1) Mark F. Green >> educated at => University of Southern California; 2) How many people work in #1 ? => 150,000"}
+{"id": "2hop__123509_5385", "t": 5, "cond": "rec_chain", "memory": "1. Mark F. Green >> educated at: University of Oklahoma; 2. #1 >> related to: University of Southern California"}
+{"id": "2hop__123509_5385", "t": 5, "cond": "rec_append", "memory": "1) What university is Mark F. Green related with? => University of Southern California"}
+{"id": "2hop__133116_533882", "t": 1, "cond": "direct_cap", "memory": "1) Martin BM >> manufacturer => Glenn L. Martin Company; 2) What company was formed by the merger of #1 and American Marietta Corporation? => Martin Marietta"}
+{"id": "2hop__133116_533882", "t": 1, "cond": "rec_chain", "memory": "1. Martin Marietta was formed in 1961 by the merger of Glenn L. Martin Company and American Marietta Corporation."}
+{"id": "2hop__133116_533882", "t": 1, "cond": "rec_append", "memory": "1) Martin Marietta Corporation was founded in 1961 through the merger of #1 and American Marietta Corporation. => Glenn L. Martin Company"}
+{"id": "2hop__133116_533882", "t": 2, "cond": "direct_cap", "memory": "1) Martin BM >> manufacturer => Glenn L. Martin Company; 2) What company was formed by the merger of #1 and American Marietta Corporation? => Martin Marietta"}
+{"id": "2hop__133116_533882", "t": 2, "cond": "rec_chain", "memory": "1. Martin BM >> builder: Glenn L. Martin Company. 2. Martin Marietta was formed in 1961 by the merger of Glenn L. Martin Company and American Marietta Corporation."}
+{"id": "2hop__133116_533882", "t": 2, "cond": "rec_append", "memory": "1) Martin Marietta Corporation was founded in 1961 through the merger of #1 and American Marietta Corporation. => Glenn L. Martin Company ; 2) Martin BM >> builder => Glenn L. Martin Company"}
+{"id": "2hop__133116_533882", "t": 3, "cond": "direct_cap", "memory": "1) Martin BM >> manufacturer => Glenn L. Martin Company; 2) What company was formed by the merger of #1 and American Marietta Corporation? => Martin Marietta"}
+{"id": "2hop__133116_533882", "t": 3, "cond": "rec_chain", "memory": "1. Martin BM >> builder: Glenn L. Martin Company. 2. Martin Marietta was formed in 1961 by the merger of Glenn L. Martin Company and American Marietta Corporation."}
+{"id": "2hop__133116_533882", "t": 3, "cond": "rec_append", "memory": "1) Martin Marietta Corporation was founded in 1961 through the merger of #1 and American Marietta Corporation. => Glenn L. Martin Company ; 2) Martin BM >> builder => Glenn L. Martin Company"}
+{"id": "2hop__133116_533882", "t": 4, "cond": "direct_cap", "memory": "1) Martin BM >> manufacturer => Glenn L. Martin Company; 2) What company was formed by the merger of #1 and American Marietta Corporation? => Martin Marietta"}
+{"id": "2hop__133116_533882", "t": 4, "cond": "rec_chain", "memory": "1. Martin BM >> builder: Glenn L. Martin Company. 2. Martin Marietta was formed in 1961 by the merger of Glenn L. Martin Company and American Marietta Corporation."}
+{"id": "2hop__133116_533882", "t": 4, "cond": "rec_append", "memory": "1) Martin Marietta Corporation was founded in 1961 through the merger of #1 and American Marietta Corporation. => Glenn L. Martin Company ; 2) Martin BM >> builder => Glenn L. Martin Company"}
+{"id": "2hop__133116_533882", "t": 5, "cond": "direct_cap", "memory": "1) Martin BM >> manufacturer => Glenn L. Martin Company; 2) What company was formed by the merger of #1 and American Marietta Corporation? => Martin Marietta"}
+{"id": "2hop__133116_533882", "t": 5, "cond": "rec_chain", "memory": "1. Martin BM >> builder: Glenn L. Martin Company. 2. Martin Marietta was formed in 1961 by the merger of Glenn L. Martin Company and American Marietta Corporation."}
+{"id": "2hop__133116_533882", "t": 5, "cond": "rec_append", "memory": "1) Martin Marietta Corporation was founded in 1961 through the merger of #1 and American Marietta Corporation. => Glenn L. Martin Company ; 2) Martin BM >> builder => Glenn L. Martin Company"}
+{"id": "2hop__152052_141308", "t": 1, "cond": "direct_cap", "memory": "1) Don't Let Me Wait Too Long >> performer => John Lennon; 2) #1 >> record label => Apple Corps"}
+{"id": "2hop__152052_141308", "t": 1, "cond": "rec_chain", "memory": "1. Don't Let Me Wait Too Long >> label: Apple Records"}
+{"id": "2hop__152052_141308", "t": 1, "cond": "rec_append", "memory": "1) Don't Let Me Wait Too Long >> label => Apple Records"}
+{"id": "2hop__152052_141308", "t": 2, "cond": "direct_cap", "memory": "1) Don't Let Me Wait Too Long >> record label => Apple Records; 2) What company is #1 part of? => Columbia Records"}
+{"id": "2hop__152052_141308", "t": 2, "cond": "rec_chain", "memory": "1. Don't Let Me Wait Too Long >> label: Apple Records"}
+{"id": "2hop__152052_141308", "t": 2, "cond": "rec_append", "memory": "1) Don't Let Me Wait Too Long >> label => Apple Records"}
+{"id": "2hop__152052_141308", "t": 3, "cond": "direct_cap", "memory": "1) Don't Let Me Wait Too Long >> performer => John Lennon; 2) #1 >> record label => Apple Corps"}
+{"id": "2hop__152052_141308", "t": 3, "cond": "rec_chain", "memory": "1. Don't Let Me Wait Too Long >> label: Apple Records\n2. #1 >> parent company: Apple Corps"}
+{"id": "2hop__152052_141308", "t": 3, "cond": "rec_append", "memory": "1) Don't Let Me Wait Too Long >> label => Apple Records ; 2) What company is #1 a part of? => Apple Corps Ltd."}
+{"id": "2hop__152052_141308", "t": 4, "cond": "direct_cap", "memory": "1) Don't Let Me Wait Too Long >> record label => Apple Records; 2) What company is #1 part of? => Columbia Records"}
+{"id": "2hop__152052_141308", "t": 4, "cond": "rec_chain", "memory": "1. Don't Let Me Wait Too Long >> label: Apple Records\n2. #1 >> parent company: Apple Corps"}
+{"id": "2hop__152052_141308", "t": 4, "cond": "rec_append", "memory": "1) Don't Let Me Wait Too Long >> label => Apple Records ; 2) What company is #1 a part of? => Apple Corps Ltd."}
+{"id": "2hop__152052_141308", "t": 5, "cond": "direct_cap", "memory": "1) Don't Let Me Wait Too Long >> record label => Apple Records; 2) What company is #1 part of? => Columbia Records"}
+{"id": "2hop__152052_141308", "t": 5, "cond": "rec_chain", "memory": "1. Don't Let Me Wait Too Long >> label: Apple Records\n2. #1 >> parent company: Apple Corps"}
+{"id": "2hop__152052_141308", "t": 5, "cond": "rec_append", "memory": "1) Don't Let Me Wait Too Long >> label => Apple Records ; 2) What company is #1 a part of? => Apple Corps Ltd."}
+{"id": "2hop__169443_83769", "t": 1, "cond": "direct_cap", "memory": "1) Good Will Hunting >> screenwriter => James Cameron; 2) who did #1 play in dazed and confused => the president"}
+{"id": "2hop__169443_83769", "t": 1, "cond": "rec_chain", "memory": "1. Good Will Hunting >> screenwriter: Ben Affleck"}
+{"id": "2hop__169443_83769", "t": 1, "cond": "rec_append", "memory": "1) who did #1 play in dazed and confused => Sadie Plant"}
+{"id": "2hop__169443_83769", "t": 2, "cond": "direct_cap", "memory": "1) Good Will Hunting >> screenwriter => Matthew McConaughey; 2) who did #1 play in dazed and confused => a hot wheels"}
+{"id": "2hop__169443_83769", "t": 2, "cond": "rec_chain", "memory": "1. Good Will Hunting >> screenwriter: Ben Affleck"}
+{"id": "2hop__169443_83769", "t": 2, "cond": "rec_append", "memory": "1) who did #1 play in dazed and confused => Sadie Plant ; 2) who was the screenwriter for good will hunting => Matt Damon"}
+{"id": "2hop__169443_83769", "t": 3, "cond": "direct_cap", "memory": "1) Good Will Hunting >> screenwriter => Matt Damon; 2) who did #1 play in dazed and confused => Matthew McConaughey"}
+{"id": "2hop__169443_83769", "t": 3, "cond": "rec_chain", "memory": "1. Good Will Hunting >> screenwriter: Ben Affleck"}
+{"id": "2hop__169443_83769", "t": 3, "cond": "rec_append", "memory": "1) who did #1 play in dazed and confused => Sadie Plant ; 2) who was the screenwriter for good will hunting => Matt Damon"}
+{"id": "2hop__169443_83769", "t": 4, "cond": "direct_cap", "memory": "1) Good Will Hunting >> screenwriter => Matt Damon; 2) who did #1 play in dazed and confused => Matthew McConaughey"}
+{"id": "2hop__169443_83769", "t": 4, "cond": "rec_chain", "memory": "1. Good Will Hunting >> screenwriter: Ben Affleck"}
+{"id": "2hop__169443_83769", "t": 4, "cond": "rec_append", "memory": "1) who did #1 play in dazed and confused => Sadie Plant ; 2) who was the screenwriter for good will hunting => Matt Damon"}
+{"id": "2hop__169443_83769", "t": 5, "cond": "direct_cap", "memory": "1) Good Will Hunting >> screenwriter => Matt Damon; 2) who did #1 play in dazed and confused => Matthew McConaughey"}
+{"id": "2hop__169443_83769", "t": 5, "cond": "rec_chain", "memory": "1. Good Will Hunting >> screenwriter: Ben Affleck\n2. who did #1 play in dazed and confused: Fred O'Bannion"}
+{"id": "2hop__169443_83769", "t": 5, "cond": "rec_append", "memory": "1) who did #1 play in dazed and confused => Sadie Plant ; 2) who was the screenwriter for good will hunting => Matt Damon"}
+{"id": "2hop__203437_152093", "t": 1, "cond": "direct_cap", "memory": "1) Live Life Loud >> performer => Bonnie Pink; 2) What label was responsible for #1 ? => Warner Music Japan"}
+{"id": "2hop__203437_152093", "t": 1, "cond": "rec_chain", "memory": "1. #1 >> record label: Warner Music Japan"}
+{"id": "2hop__203437_152093", "t": 1, "cond": "rec_append", "memory": "1) #1 >> record label => Warner Music Japan"}
+{"id": "2hop__203437_152093", "t": 2, "cond": "direct_cap", "memory": "1) Live Life Loud >> performer => Bonnie Pink; 2) What label was responsible for #1 ? => Warner Music Japan"}
+{"id": "2hop__203437_152093", "t": 2, "cond": "rec_chain", "memory": "1. #1 >> record label: Warner Music Japan"}
+{"id": "2hop__203437_152093", "t": 2, "cond": "rec_append", "memory": "1) #1 >> record label => Warner Music Japan"}
+{"id": "2hop__203437_152093", "t": 3, "cond": "direct_cap", "memory": "1) Live Life Loud >> performer => Bonnie Pink; 2) What label was responsible for #1 ? => Warner Music Japan"}
+{"id": "2hop__203437_152093", "t": 3, "cond": "rec_chain", "memory": "1. Live Life Loud >> performer: Hawk Nelson; 2. #1 >> record label: Warner Music Japan"}
+{"id": "2hop__203437_152093", "t": 3, "cond": "rec_append", "memory": "1) #1 >> record label => Warner Music Japan ; 2) Live Life Loud >> performer => Hawk Nelson"}
+{"id": "2hop__203437_152093", "t": 4, "cond": "direct_cap", "memory": "1) Live Life Loud >> performer => Bonnie Pink; 2) What label was responsible for #1 ? => Warner Music Japan"}
+{"id": "2hop__203437_152093", "t": 4, "cond": "rec_chain", "memory": "1. Live Life Loud >> performer: Hawk Nelson; 2. #1 >> record label: Warner Music Japan"}
+{"id": "2hop__203437_152093", "t": 4, "cond": "rec_append", "memory": "1) #1 >> record label => Warner Music Japan ; 2) Live Life Loud >> performer => Hawk Nelson"}
+{"id": "2hop__203437_152093", "t": 5, "cond": "direct_cap", "memory": "1) Live Life Loud >> performer => Bonnie Pink; 2) What label was responsible for #1 ? => Warner Music Japan"}
+{"id": "2hop__203437_152093", "t": 5, "cond": "rec_chain", "memory": "1. Live Life Loud >> performer: Hawk Nelson; 2. #1 >> record label: Warner Music Japan"}
+{"id": "2hop__203437_152093", "t": 5, "cond": "rec_append", "memory": "1) #1 >> record label => Warner Music Japan ; 2) Live Life Loud >> performer => Hawk Nelson ; 3) What label was #2 responsible for? => Fair Trade Services"}
+{"id": "2hop__231890_595414", "t": 1, "cond": "direct_cap", "memory": "1) Lloyd Dane >> place of birth => Eldon; 2) #1 >> located in the administrative territorial entity => Miller County"}
+{"id": "2hop__231890_595414", "t": 1, "cond": "rec_chain", "memory": "1. #1 >> located in the administrative territorial entity: Miller County"}
+{"id": "2hop__231890_595414", "t": 1, "cond": "rec_append", "memory": "1) Eldon >> located in the administrative territorial entity => Miller County"}
+{"id": "2hop__231890_595414", "t": 2, "cond": "direct_cap", "memory": "1) Lloyd Dane >> place of birth => Dane; 2) #1 >> located in the administrative territorial entity => Dane County"}
+{"id": "2hop__231890_595414", "t": 2, "cond": "rec_chain", "memory": "1. #1 >> located in the administrative territorial entity: Miller County"}
+{"id": "2hop__231890_595414", "t": 2, "cond": "rec_append", "memory": "1) Eldon >> located in the administrative territorial entity => Miller County"}
+{"id": "2hop__231890_595414", "t": 3, "cond": "direct_cap", "memory": "1) Lloyd Dane >> place of birth => Eldon; 2) #1 >> located in the administrative territorial entity => Miller County"}
+{"id": "2hop__231890_595414", "t": 3, "cond": "rec_chain", "memory": "1. #1 >> located in the administrative territorial entity: Miller County"}
+{"id": "2hop__231890_595414", "t": 3, "cond": "rec_append", "memory": "1) Eldon >> located in the administrative territorial entity => Miller County"}
+{"id": "2hop__231890_595414", "t": 4, "cond": "direct_cap", "memory": "1) Lloyd Dane >> place of birth => Dane; 2) #1 >> located in the administrative territorial entity => Dane County"}
+{"id": "2hop__231890_595414", "t": 4, "cond": "rec_chain", "memory": "1. #1 >> located in the administrative territorial entity: Miller County"}
+{"id": "2hop__231890_595414", "t": 4, "cond": "rec_append", "memory": "1) Eldon >> located in the administrative territorial entity => Miller County"}
+{"id": "2hop__231890_595414", "t": 5, "cond": "direct_cap", "memory": "1) Lloyd Dane >> place of birth => Eldon; 2) #1 >> located in the administrative territorial entity => Miller County"}
+{"id": "2hop__231890_595414", "t": 5, "cond": "rec_chain", "memory": "1. Lloyd Dane >> place of birth: Eldon 2. #1 >> located in the administrative territorial entity: Miller County"}
+{"id": "2hop__231890_595414", "t": 5, "cond": "rec_append", "memory": "1) Eldon >> located in the administrative territorial entity => Miller County ; 2) Lloyd Dane >> place of birth => Eldon"}
+{"id": "2hop__23459_22946", "t": 1, "cond": "direct_cap", "memory": "1) Who was one of the greatest thinkers in Islamic philosophy? => Ibn Sīnā; 2) Who said that #1 was the most influential figure in Islamic philosophy? => George Sarton"}
+{"id": "2hop__23459_22946", "t": 1, "cond": "rec_chain", "memory": "1. Who said that the most influential figure in Islamic philosophy was one of the greatest thinkers? George Sarton"}
+{"id": "2hop__23459_22946", "t": 1, "cond": "rec_append", "memory": "1) Who said that #1 was one of the greatest thinkers? => George Sarton"}
+{"id": "2hop__23459_22946", "t": 2, "cond": "direct_cap", "memory": "1) Who was one of the greatest thinkers in Islamic philosophy? => Ibn Sīnā; 2) Who said that #1 was the most influential figure in Islamic philosophy? => George Sarton"}
+{"id": "2hop__23459_22946", "t": 2, "cond": "rec_chain", "memory": "1. Who said that the most influential figure in Islamic philosophy was one of the greatest thinkers? George Sarton"}
+{"id": "2hop__23459_22946", "t": 2, "cond": "rec_append", "memory": "1) Who said that #1 was one of the greatest thinkers? => George Sarton ; 2) who was the most influential figure in islamic philosophy => Ibn Sina"}
+{"id": "2hop__23459_22946", "t": 3, "cond": "direct_cap", "memory": "1) Who was the most influential figure in Islamic philosophy? => Ibn Sina; 2) Who said that #1 was one of the greatest thinkers? => George Sarton"}
+{"id": "2hop__23459_22946", "t": 3, "cond": "rec_chain", "memory": "1. Who said that the most influential figure in Islamic philosophy was one of the greatest thinkers? George Sarton"}
+{"id": "2hop__23459_22946", "t": 3, "cond": "rec_append", "memory": "1) Who said that #1 was one of the greatest thinkers? => George Sarton ; 2) who was the most influential figure in islamic philosophy => Ibn Sina"}
+{"id": "2hop__23459_22946", "t": 4, "cond": "direct_cap", "memory": "1) Who was one of the greatest thinkers in Islamic philosophy? => Ibn Sīnā; 2) Who said that #1 was the most influential figure in Islamic philosophy? => George Sarton"}
+{"id": "2hop__23459_22946", "t": 4, "cond": "rec_chain", "memory": "1. Who said that the most influential figure in Islamic philosophy was one of the greatest thinkers? George Sarton"}
+{"id": "2hop__23459_22946", "t": 4, "cond": "rec_append", "memory": "1) Who said that #1 was one of the greatest thinkers? => George Sarton ; 2) who was the most influential figure in islamic philosophy => Ibn Sina"}
+{"id": "2hop__23459_22946", "t": 5, "cond": "direct_cap", "memory": "1) Who was one of the greatest thinkers in Islamic philosophy? => Ibn Sīnā; 2) Who said that #1 was the most influential figure in Islamic philosophy? => George Sarton"}
+{"id": "2hop__23459_22946", "t": 5, "cond": "rec_chain", "memory": "1. Who said that the most influential figure in Islamic philosophy was one of the greatest thinkers? George Sarton"}
+{"id": "2hop__23459_22946", "t": 5, "cond": "rec_append", "memory": "1) Who said that #1 was one of the greatest thinkers? => George Sarton ; 2) who was the most influential figure in islamic philosophy => Ibn Sina"}
+{"id": "2hop__244193_461106", "t": 1, "cond": "direct_cap", "memory": "1) who is the creator of the washington monument => Pierre Charles L'Enfant; 2) #1 >> movement => French Enlightenment"}
+{"id": "2hop__244193_461106", "t": 1, "cond": "rec_chain", "memory": "1. #1 >> member of: Nazi government"}
+{"id": "2hop__244193_461106", "t": 1, "cond": "rec_append", "memory": "1) What movement does #1 belong to? => Nazi government"}
+{"id": "2hop__244193_461106", "t": 2, "cond": "direct_cap", "memory": "1) who is the creator of the washington monument => Robert Mills; 2) #1 >> movement => American Renaissance"}
+{"id": "2hop__244193_461106", "t": 2, "cond": "rec_chain", "memory": "1. #1 >> member of: Nazi government"}
+{"id": "2hop__244193_461106", "t": 2, "cond": "rec_append", "memory": "1) What movement does #1 belong to? => Nazi government"}
+{"id": "2hop__244193_461106", "t": 3, "cond": "direct_cap", "memory": "1) who is the creator of the washington monument => Robert Mills; 2) #1 >> movement => American Renaissance"}
+{"id": "2hop__244193_461106", "t": 3, "cond": "rec_chain", "memory": "1. #1 >> member of: Nazi government"}
+{"id": "2hop__244193_461106", "t": 3, "cond": "rec_append", "memory": "1) What movement does #1 belong to? => Nazi government"}
+{"id": "2hop__244193_461106", "t": 4, "cond": "direct_cap", "memory": "1) who is the creator of the washington monument => Robert Mills; 2) #1 >> movement => American Renaissance"}
+{"id": "2hop__244193_461106", "t": 4, "cond": "rec_chain", "memory": "1. #1 >> member of: Nazi government"}
+{"id": "2hop__244193_461106", "t": 4, "cond": "rec_append", "memory": "1) What movement does #1 belong to? => Nazi government"}
+{"id": "2hop__244193_461106", "t": 5, "cond": "direct_cap", "memory": "1) who is the creator of the washington monument => Robert Mills; 2) #1 >> movement => American Architectural Movement"}
+{"id": "2hop__244193_461106", "t": 5, "cond": "rec_chain", "memory": "1. #1 >> member of: Nazi government"}
+{"id": "2hop__244193_461106", "t": 5, "cond": "rec_append", "memory": "1) What movement does #1 belong to? => Nazi government"}
+{"id": "2hop__310112_88165", "t": 1, "cond": "direct_cap", "memory": "1) Haran >> sibling => Sarah; 2) who did #1 marry after her death => Abraham"}
+{"id": "2hop__310112_88165", "t": 1, "cond": "rec_chain", "memory": "1. #1 >> spouse: Barnabas Collins"}
+{"id": "2hop__310112_88165", "t": 1, "cond": "rec_append", "memory": "1) Barnabas Collins >> spouse => Angelique Bouchard"}
+{"id": "2hop__310112_88165", "t": 2, "cond": "direct_cap", "memory": "1) Haran >> sibling => Sarah; 2) who did #1 husband marry after her death => Abraham"}
+{"id": "2hop__310112_88165", "t": 2, "cond": "rec_chain", "memory": "1. #1 >> spouse: Barnabas Collins"}
+{"id": "2hop__310112_88165", "t": 2, "cond": "rec_append", "memory": "1) Barnabas Collins >> spouse => Angelique Bouchard"}
+{"id": "2hop__310112_88165", "t": 3, "cond": "direct_cap", "memory": "1) Haran >> sibling => Sarah; 2) who did #1 marry after her death => Abraham"}
+{"id": "2hop__310112_88165", "t": 3, "cond": "rec_chain", "memory": "1. #1 >> spouse: Barnabas Collins"}
+{"id": "2hop__310112_88165", "t": 3, "cond": "rec_append", "memory": "1) Barnabas Collins >> spouse => Angelique Bouchard"}
+{"id": "2hop__310112_88165", "t": 4, "cond": "direct_cap", "memory": "1) Haran >> sibling => Sarah; 2) who did #1 marry after her death => Abraham"}
+{"id": "2hop__310112_88165", "t": 4, "cond": "rec_chain", "memory": "1. #1 >> spouse: Barnabas Collins"}
+{"id": "2hop__310112_88165", "t": 4, "cond": "rec_append", "memory": "1) Barnabas Collins >> spouse => Angelique Bouchard"}
+{"id": "2hop__310112_88165", "t": 5, "cond": "direct_cap", "memory": "1) Haran >> sibling => Sarah; 2) who did #1 husband marry after her death => Abraham"}
+{"id": "2hop__310112_88165", "t": 5, "cond": "rec_chain", "memory": "1. #1 >> spouse: Barnabas Collins"}
+{"id": "2hop__310112_88165", "t": 5, "cond": "rec_append", "memory": "1) Barnabas Collins >> spouse => Angelique Bouchard"}
+{"id": "2hop__31085_23241", "t": 1, "cond": "direct_cap", "memory": "1) Ibn Tufail >> religion => Islam; 2) According to Pew, what percent of Nigeria's population was #1 in 2010? => 49.2 percent"}
+{"id": "2hop__31085_23241", "t": 1, "cond": "rec_chain", "memory": "1. #1 >> religion: Islam"}
+{"id": "2hop__31085_23241", "t": 1, "cond": "rec_append", "memory": "1) According to Pew, in 2010 what percent of #1 's population was #2 ? => 17.8%"}
+{"id": "2hop__31085_23241", "t": 2, "cond": "direct_cap", "memory": "1) Ibn Tufail >> religion => Islam; 2) According to Pew, in 2010 what percent of Nigeria's population was #1 ? => 48.8 percent"}
+{"id": "2hop__31085_23241", "t": 2, "cond": "rec_chain", "memory": "1. #1 >> religion: Islam"}
+{"id": "2hop__31085_23241", "t": 2, "cond": "rec_append", "memory": "1) According to Pew, in 2010 what percent of Nigeria's population was #2 ? => 48.8 percent ; 2) Ibn Tufail >> religion => Muslim"}
+{"id": "2hop__31085_23241", "t": 3, "cond": "direct_cap", "memory": "1) Ibn Tufail >> religion => Islam; 2) According to Pew, in 2010 what percent of Nigeria's population was #1 ? => 48.8 percent"}
+{"id": "2hop__31085_23241", "t": 3, "cond": "rec_chain", "memory": "1. #1 >> religion: Islam"}
+{"id": "2hop__31085_23241", "t": 3, "cond": "rec_append", "memory": "1) According to Pew, in 2010 what percent of Nigeria's population was #2 ? => 48.8 percent ; 2) Ibn Tufail >> religion => Muslim"}
+{"id": "2hop__31085_23241", "t": 4, "cond": "direct_cap", "memory": "1) Ibn Tufail >> religion => Islam; 2) According to Pew, in 2010 what percent of Nigeria's population was #1 ? => 48.8 percent"}
+{"id": "2hop__31085_23241", "t": 4, "cond": "rec_chain", "memory": "1. #1 >> religion: Islam"}
+{"id": "2hop__31085_23241", "t": 4, "cond": "rec_append", "memory": "1) According to Pew, in 2010 what percent of Nigeria's population was #2 ? => 48.8 percent ; 2) Ibn Tufail >> religion => Muslim"}
+{"id": "2hop__31085_23241", "t": 5, "cond": "direct_cap", "memory": "1) Ibn Tufail >> religion => Islam; 2) According to Pew, in 2010 what percent of Nigeria's population was #1 ? => 48.8 percent"}
+{"id": "2hop__31085_23241", "t": 5, "cond": "rec_chain", "memory": "1. #1 >> religion: Islam"}
+{"id": "2hop__31085_23241", "t": 5, "cond": "rec_append", "memory": "1) According to Pew, in 2010 what percent of Nigeria's population was #2 ? => 48.8 percent ; 2) Ibn Tufail >> religion => Muslim"}
+{"id": "2hop__315246_88622", "t": 1, "cond": "direct_cap", "memory": "1) Simon >> developer => Simon & Schuster; 2) who is the head of #1 => Carrie Fisher"}
+{"id": "2hop__315246_88622", "t": 1, "cond": "rec_chain", "memory": "1. Simon >> developer: IBM"}
+{"id": "2hop__315246_88622", "t": 1, "cond": "rec_append", "memory": "1) Who is the head of #1 ? => Carrie Fisher"}
+{"id": "2hop__315246_88622", "t": 2, "cond": "direct_cap", "memory": "1) Simon >> developer => Simon & Schuster; 2) who is the head of #1 => Carrie Fisher"}
+{"id": "2hop__315246_88622", "t": 2, "cond": "rec_chain", "memory": "1. Simon >> developer: IBM"}
+{"id": "2hop__315246_88622", "t": 2, "cond": "rec_append", "memory": "1) Who is the head of #1 ? => Carrie Fisher"}
+{"id": "2hop__315246_88622", "t": 3, "cond": "direct_cap", "memory": "1) Simon >> developer => National Security Agency; 2) who is the head of #1 => Director of National Intelligence"}
+{"id": "2hop__315246_88622", "t": 3, "cond": "rec_chain", "memory": "1. Simon >> developer: IBM"}
+{"id": "2hop__315246_88622", "t": 3, "cond": "rec_append", "memory": "1) Who is the head of #1 ? => Carrie Fisher"}
+{"id": "2hop__315246_88622", "t": 4, "cond": "direct_cap", "memory": "1) Simon >> developer => National Security Agency; 2) who is the head of #1 => MG Ralph Canine"}
+{"id": "2hop__315246_88622", "t": 4, "cond": "rec_chain", "memory": "1. Simon >> developer: IBM"}
+{"id": "2hop__315246_88622", "t": 4, "cond": "rec_append", "memory": "1) Who is the head of #1 ? => Carrie Fisher"}
+{"id": "2hop__315246_88622", "t": 5, "cond": "direct_cap", "memory": "1) Simon >> developer => Simon & Schuster; 2) who is the head of #1 => Carrie Fisher"}
+{"id": "2hop__315246_88622", "t": 5, "cond": "rec_chain", "memory": "1. Simon >> developer: IBM"}
+{"id": "2hop__315246_88622", "t": 5, "cond": "rec_append", "memory": "1) Who is the head of #1 ? => Carrie Fisher"}
+{"id": "2hop__385392_756039", "t": 1, "cond": "direct_cap", "memory": "1) KTRP >> licensed to broadcast to => Boise City; 2) #1 >> located in the administrative territorial entity => Canyon County"}
+{"id": "2hop__385392_756039", "t": 1, "cond": "rec_chain", "memory": "1. #1 >> located in the administrative territorial entity: Canyon County"}
+{"id": "2hop__385392_756039", "t": 1, "cond": "rec_append", "memory": "1) What administrative territorial entity includes #1 ? => Canyon County"}
+{"id": "2hop__385392_756039", "t": 2, "cond": "direct_cap", "memory": "1) KTRP >> licensed to broadcast to => Minsk; 2) #1 >> located in the administrative territorial entity => Minsk Region"}
+{"id": "2hop__385392_756039", "t": 2, "cond": "rec_chain", "memory": "1. #1 >> located in the administrative territorial entity: Canyon County"}
+{"id": "2hop__385392_756039", "t": 2, "cond": "rec_append", "memory": "1) What administrative territorial entity includes #1 ? => Canyon County"}
+{"id": "2hop__385392_756039", "t": 3, "cond": "direct_cap", "memory": "1) KTRP >> licensed to broadcast to => Toledo; 2) #1 >> located in the administrative territorial entity => Lucas County"}
+{"id": "2hop__385392_756039", "t": 3, "cond": "rec_chain", "memory": "1. #1 >> located in the administrative territorial entity: Canyon County"}
+{"id": "2hop__385392_756039", "t": 3, "cond": "rec_append", "memory": "1) What administrative territorial entity includes #1 ? => Canyon County"}
+{"id": "2hop__385392_756039", "t": 4, "cond": "direct_cap", "memory": "1) KTRP >> licensed to broadcast to => Minsk; 2) #1 >> located in the administrative territorial entity => Minsk Region"}
+{"id": "2hop__385392_756039", "t": 4, "cond": "rec_chain", "memory": "1. #1 >> located in the administrative territorial entity: Canyon County"}
+{"id": "2hop__385392_756039", "t": 4, "cond": "rec_append", "memory": "1) What administrative territorial entity includes #1 ? => Canyon County"}
+{"id": "2hop__385392_756039", "t": 5, "cond": "direct_cap", "memory": "1) KTRP >> licensed to broadcast to => Minsk; 2) #1 >> located in the administrative territorial entity => Minsk Region"}
+{"id": "2hop__385392_756039", "t": 5, "cond": "rec_chain", "memory": "1. KTRP >> licensed to serve: Notus 2. #1 >> located in the administrative territorial entity: Canyon County"}
+{"id": "2hop__385392_756039", "t": 5, "cond": "rec_append", "memory": "1) What administrative territorial entity includes #1 ? => Canyon County ; 2) KTRP >> licensed to broadcast to => Notus"}
+{"id": "2hop__38828_89399", "t": 1, "cond": "direct_cap", "memory": "1. What glowing species can be found on some beaches in Portugal? => bioluminescent plankton; 2. who voices #1 in spongebob squarepants => Mr. Lawrence"}
+{"id": "2hop__38828_89399", "t": 1, "cond": "rec_chain", "memory": "1. who voices #1 in spongebob squarepants"}
+{"id": "2hop__38828_89399", "t": 1, "cond": "rec_append", "memory": "1) who voices #1 in spongebob squarepants => Tom Kenny"}
+{"id": "2hop__38828_89399", "t": 2, "cond": "direct_cap", "memory": "1) What glowing species can be found on some beaches in Portugal? => bioluminescent plankton; 2) who voices #1 in spongebob squarepants => Mr. Lawrence"}
+{"id": "2hop__38828_89399", "t": 2, "cond": "rec_chain", "memory": "1. who voices #1 in spongebob squarepants"}
+{"id": "2hop__38828_89399", "t": 2, "cond": "rec_append", "memory": "1) who voices #1 in spongebob squarepants => Tom Kenny"}
+{"id": "2hop__38828_89399", "t": 3, "cond": "direct_cap", "memory": "1. What glowing species can be found on some beaches in Portugal? => bioluminescent plankton; 2. who voices #1 in spongebob squarepants => Bill Fagerbakke"}
+{"id": "2hop__38828_89399", "t": 3, "cond": "rec_chain", "memory": "1. what is the name of the glowing species found in some beaches in portugal 2. who voices #1 in spongebob squarepants"}
+{"id": "2hop__38828_89399", "t": 3, "cond": "rec_append", "memory": "1) who voices #1 in spongebob squarepants => Tom Kenny ; 2) What glowing species can be found in some beaches in Portugal? => plankton"}
+{"id": "2hop__38828_89399", "t": 4, "cond": "direct_cap", "memory": "1) What glowing species can be found on some beaches in Portugal? => bioluminescent plankton; 2) who voices #1 in spongebob squarepants => Bill Fagerbakke"}
+{"id": "2hop__38828_89399", "t": 4, "cond": "rec_chain", "memory": "1. what is the name of the glowing species found in some beaches in portugal 2. who voices #1 in spongebob squarepants"}
+{"id": "2hop__38828_89399", "t": 4, "cond": "rec_append", "memory": "1) who voices #1 in spongebob squarepants => Tom Kenny ; 2) What glowing species can be found in some beaches in Portugal? => plankton"}
+{"id": "2hop__38828_89399", "t": 5, "cond": "direct_cap", "memory": "1) What glowing species can be found on some beaches in Portugal? => Atlantis; 2) who voices #1 in spongebob squarepants => David Bowie"}
+{"id": "2hop__38828_89399", "t": 5, "cond": "rec_chain", "memory": "1. what is the name of the glowing species found in some beaches in portugal 2. who voices #1 in spongebob squarepants"}
+{"id": "2hop__38828_89399", "t": 5, "cond": "rec_append", "memory": "1) who voices #1 in spongebob squarepants => Tom Kenny ; 2) What glowing species can be found in some beaches in Portugal? => plankton"}
+{"id": "2hop__402530_774333", "t": 1, "cond": "direct_cap", "memory": "1) Imperial >> located in the administrative territorial entity => Larnaca; 2) #1 >> shares border with => Paphos"}
+{"id": "2hop__402530_774333", "t": 1, "cond": "rec_chain", "memory": "1. #1 >> shares border with: Chicago"}
+{"id": "2hop__402530_774333", "t": 1, "cond": "rec_append", "memory": "1) What state is Imperial located? => California"}
+{"id": "2hop__402530_774333", "t": 2, "cond": "direct_cap", "memory": "1) Imperial >> located in the administrative territorial entity => Larnaca; 2) #1 >> shares border with => Paphos"}
+{"id": "2hop__402530_774333", "t": 2, "cond": "rec_chain", "memory": "1. #1 >> shares border with: Chicago"}
+{"id": "2hop__402530_774333", "t": 2, "cond": "rec_append", "memory": "1) What state is Imperial located? => California"}
+{"id": "2hop__402530_774333", "t": 3, "cond": "direct_cap", "memory": "1) Imperial >> located in the administrative territorial entity => Larnaca; 2) #1 >> shares border with => Paphos"}
+{"id": "2hop__402530_774333", "t": 3, "cond": "rec_chain", "memory": "1. #1 >> shares border with: Chicago"}
+{"id": "2hop__402530_774333", "t": 3, "cond": "rec_append", "memory": "1) What state is Imperial located? => California"}
+{"id": "2hop__402530_774333", "t": 4, "cond": "direct_cap", "memory": "1) Imperial >> located in the administrative territorial entity => Larnaca; 2) #1 >> shares border with => Paphos"}
+{"id": "2hop__402530_774333", "t": 4, "cond": "rec_chain", "memory": "1. #1 >> shares border with: Chicago"}
+{"id": "2hop__402530_774333", "t": 4, "cond": "rec_append", "memory": "1) What state is Imperial located? => California"}
+{"id": "2hop__402530_774333", "t": 5, "cond": "direct_cap", "memory": "1) Imperial >> located in the administrative territorial entity => Larnaca; 2) #1 >> shares border with => Paphos"}
+{"id": "2hop__402530_774333", "t": 5, "cond": "rec_chain", "memory": "1. Imperial >> located in the administrative territorial entity: Pecos County; 2. #1 >> shares border with: Chicago"}
+{"id": "2hop__402530_774333", "t": 5, "cond": "rec_append", "memory": "1) What state is Imperial located? => California"}
+{"id": "2hop__418941_429437", "t": 1, "cond": "direct_cap", "memory": "1) What is the mouth of Bumping River? => Naches River; 2) what is the mouth of #1 => Little Naches River"}
+{"id": "2hop__418941_429437", "t": 1, "cond": "rec_chain", "memory": "1. Bumping River >> mouth of the watercourse: Naches River"}
+{"id": "2hop__418941_429437", "t": 1, "cond": "rec_append", "memory": "1) Bumping River >> mouth of the watercourse => Naches River"}
+{"id": "2hop__418941_429437", "t": 2, "cond": "direct_cap", "memory": "1) What is the mouth of Bumping River? => Naches River; 2) what is the mouth of #1 => Little Naches River"}
+{"id": "2hop__418941_429437", "t": 2, "cond": "rec_chain", "memory": "1. Bumping River >> mouth of the watercourse: Naches River"}
+{"id": "2hop__418941_429437", "t": 2, "cond": "rec_append", "memory": "1) Bumping River >> mouth of the watercourse => Naches River"}
+{"id": "2hop__418941_429437", "t": 3, "cond": "direct_cap", "memory": "1) Bumping River >> mouth of the watercourse => Little Naches River; 2) #1 >> mouth of the watercourse => Naches River"}
+{"id": "2hop__418941_429437", "t": 3, "cond": "rec_chain", "memory": "1. Bumping River >> mouth of the watercourse: Naches River"}
+{"id": "2hop__418941_429437", "t": 3, "cond": "rec_append", "memory": "1) Bumping River >> mouth of the watercourse => Naches River"}
+{"id": "2hop__418941_429437", "t": 4, "cond": "direct_cap", "memory": "1) What is the mouth of Bumping River? => Naches River; 2) what is the mouth of #1 => Little Naches River"}
+{"id": "2hop__418941_429437", "t": 4, "cond": "rec_chain", "memory": "1. Bumping River >> mouth of the watercourse: Naches River; 2. #1 >> mouth of the watercourse: Yakima River"}
+{"id": "2hop__418941_429437", "t": 4, "cond": "rec_append", "memory": "1) Bumping River >> mouth of the watercourse => Naches River ; 2) What is the mouth of #1 ? => Yakima River"}
+{"id": "2hop__418941_429437", "t": 5, "cond": "direct_cap", "memory": "1) What is the mouth of Bumping River? => Naches River; 2) what is the mouth of #1 => Little Naches River"}
+{"id": "2hop__418941_429437", "t": 5, "cond": "rec_chain", "memory": "1. Bumping River >> mouth of the watercourse: Naches River; 2. #1 >> mouth of the watercourse: Yakima River"}
+{"id": "2hop__418941_429437", "t": 5, "cond": "rec_append", "memory": "1) Bumping River >> mouth of the watercourse => Naches River ; 2) What is the mouth of #1 ? => Yakima River"}
+{"id": "2hop__455158_247871", "t": 1, "cond": "direct_cap", "memory": "1) NRHEG High School >> located in the administrative territorial entity => Thorndike; 2) #1 >> located in the administrative territorial entity => Waldo County"}
+{"id": "2hop__455158_247871", "t": 1, "cond": "rec_chain", "memory": "1. #1 >> located in the administrative territorial entity, #2"}
+{"id": "2hop__455158_247871", "t": 1, "cond": "rec_append", "memory": "1) #1 >> located in the administrative territorial entity => Thorndike"}
+{"id": "2hop__455158_247871", "t": 2, "cond": "direct_cap", "memory": "1) NRHEG High School >> located in the administrative territorial entity => Thorndike; 2) #1 >> located in the administrative territorial entity => Waldo County"}
+{"id": "2hop__455158_247871", "t": 2, "cond": "rec_chain", "memory": "1. #1 >> located in the administrative territorial entity, #2"}
+{"id": "2hop__455158_247871", "t": 2, "cond": "rec_append", "memory": "1) #1 >> located in the administrative territorial entity => Thorndike"}
+{"id": "2hop__455158_247871", "t": 3, "cond": "direct_cap", "memory": "1) NRHEG High School >> located in the administrative territorial entity => Thorndike; 2) #1 >> located in the administrative territorial entity => Oxford County"}
+{"id": "2hop__455158_247871", "t": 3, "cond": "rec_chain", "memory": "1. #1 >> located in the administrative territorial entity, #2"}
+{"id": "2hop__455158_247871", "t": 3, "cond": "rec_append", "memory": "1) #1 >> located in the administrative territorial entity => Thorndike"}
+{"id": "2hop__455158_247871", "t": 4, "cond": "direct_cap", "memory": "1) NRHEG High School >> located in the administrative territorial entity => Thorndike; 2) #1 >> located in the administrative territorial entity => Waldo County"}
+{"id": "2hop__455158_247871", "t": 4, "cond": "rec_chain", "memory": "1. #1 >> located in the administrative territorial entity, #2"}
+{"id": "2hop__455158_247871", "t": 4, "cond": "rec_append", "memory": "1) #1 >> located in the administrative territorial entity => Thorndike"}
+{"id": "2hop__455158_247871", "t": 5, "cond": "direct_cap", "memory": "1) NRHEG >> located in the administrative territorial entity => Thorndike; 2) #1 >> located in the administrative territorial entity => Waldo County"}
+{"id": "2hop__455158_247871", "t": 5, "cond": "rec_chain", "memory": "1. NRHEG High School >> located in the administrative territorial entity, New Richland; 2. #1 >> located in the administrative territorial entity, #2"}
+{"id": "2hop__455158_247871", "t": 5, "cond": "rec_append", "memory": "1) #1 >> located in the administrative territorial entity => Thorndike ; 2) NRHEG High School >> located in the administrative territorial entity => New Richland ; 3) New Richland >> located in the administrative territorial entity => Waseca County"}
+{"id": "2hop__458131_174974", "t": 1, "cond": "direct_cap", "memory": "1) The Learning Company >> producer => Houghton Mifflin; 2) #1 >> spouse => Harcourt"}
+{"id": "2hop__458131_174974", "t": 1, "cond": "rec_chain", "memory": "1. #1 >> spouse: Laura Dern"}
+{"id": "2hop__458131_174974", "t": 1, "cond": "rec_append", "memory": "1) #1 >> spouse => Laura Dern"}
+{"id": "2hop__458131_174974", "t": 2, "cond": "direct_cap", "memory": "1) The Learning Company >> producer => Houghton Mifflin Harcourt; 2) #1 >> spouse => Katharine Lee Bates"}
+{"id": "2hop__458131_174974", "t": 2, "cond": "rec_chain", "memory": "1. #1 >> spouse: Laura Dern"}
+{"id": "2hop__458131_174974", "t": 2, "cond": "rec_append", "memory": "1) #1 >> spouse => Laura Dern"}
+{"id": "2hop__458131_174974", "t": 3, "cond": "direct_cap", "memory": "1) Down The Rabbit Hole >> producer => The Learning Company; 2) #1 >> spouse => Houghton Mifflin Harcourt"}
+{"id": "2hop__458131_174974", "t": 3, "cond": "rec_chain", "memory": "1. Rabbit Hole >> producer: John Cameron Mitchell; 2. #1 >> spouse: Laura Dern"}
+{"id": "2hop__458131_174974", "t": 3, "cond": "rec_append", "memory": "1) #1 >> spouse => Laura Dern ; 2) Rabbit Hole >> producer => Nicole Kidman"}
+{"id": "2hop__458131_174974", "t": 4, "cond": "direct_cap", "memory": "1) The Learning Company >> producer => Houghton Mifflin; 2) #1 >> spouse => Harcourt"}
+{"id": "2hop__458131_174974", "t": 4, "cond": "rec_chain", "memory": "1. Rabbit Hole >> producer: John Cameron Mitchell; 2. #1 >> spouse: Laura Dern"}
+{"id": "2hop__458131_174974", "t": 4, "cond": "rec_append", "memory": "1) #1 >> spouse => Laura Dern ; 2) Rabbit Hole >> producer => Nicole Kidman"}
+{"id": "2hop__458131_174974", "t": 5, "cond": "direct_cap", "memory": "1) The Learning Company >> producer => Houghton Mifflin; 2) #1 >> spouse => Harcourt"}
+{"id": "2hop__458131_174974", "t": 5, "cond": "rec_chain", "memory": "1. Rabbit Hole >> producer: John Cameron Mitchell; 2. #1 >> spouse: Laura Dern"}
+{"id": "2hop__458131_174974", "t": 5, "cond": "rec_append", "memory": "1) #1 >> spouse => Laura Dern ; 2) Rabbit Hole >> producer => Nicole Kidman"}
+{"id": "2hop__46065_417697", "t": 1, "cond": "direct_cap", "memory": "1. Who owns the naming rights to Sun Life Stadium? => the Marlins; 2. what company made mohamed atta's car => a #1 => the #1 are a baseball team"}
+{"id": "2hop__46065_417697", "t": 1, "cond": "rec_chain", "memory": "1. #1 >> owned by: Miami Marlins"}
+{"id": "2hop__46065_417697", "t": 1, "cond": "rec_append", "memory": "1) What company owns the naming rights to titans stadium? => Marlins"}
+{"id": "2hop__46065_417697", "t": 2, "cond": "direct_cap", "memory": "1. Who owns the naming rights to Titans Stadium? => Miami Marlins; 2. What is the name of Mohamed Atta's car? => a Colgan Air; 3. What does #2 refer to? => a flight"}
+{"id": "2hop__46065_417697", "t": 2, "cond": "rec_chain", "memory": "1. #1 >> owned by: Miami Marlins"}
+{"id": "2hop__46065_417697", "t": 2, "cond": "rec_append", "memory": "1) What company owns the naming rights to titans stadium? => Marlins ; 2) Mohamed Atta's #1 is a type of what? => Nissan Altima"}
+{"id": "2hop__46065_417697", "t": 3, "cond": "direct_cap", "memory": "1. Who owns the naming rights to Titans Stadium? => Sun Life; 2. Mohamed Atta's #1 >> instance of => automobile"}
+{"id": "2hop__46065_417697", "t": 3, "cond": "rec_chain", "memory": "1. #1 >> owned by: Miami Marlins"}
+{"id": "2hop__46065_417697", "t": 3, "cond": "rec_append", "memory": "1) What company owns the naming rights to titans stadium? => Marlins ; 2) Mohamed Atta's #1 is a type of what? => Nissan Altima"}
+{"id": "2hop__46065_417697", "t": 4, "cond": "direct_cap", "memory": "1. Who owns the naming rights to Titans Stadium? => Sun Life; 2. Mohamed Atta's #1 >> instance of => automobile"}
+{"id": "2hop__46065_417697", "t": 4, "cond": "rec_chain", "memory": "1. #1 >> owned by: Miami Marlins"}
+{"id": "2hop__46065_417697", "t": 4, "cond": "rec_append", "memory": "1) What company owns the naming rights to titans stadium? => Marlins ; 2) Mohamed Atta's #1 is a type of what? => Nissan Altima"}
+{"id": "2hop__46065_417697", "t": 5, "cond": "direct_cap", "memory": "1. Who owns the naming rights to Titans Stadium? => Miami Marlins; 2. What is the name of Mohamed Atta's car? => a Colgan Air; 3. What does #2 refer to? => a flight"}
+{"id": "2hop__46065_417697", "t": 5, "cond": "rec_chain", "memory": "1. #1 >> owned by: Miami Marlins"}
+{"id": "2hop__46065_417697", "t": 5, "cond": "rec_append", "memory": "1) What company owns the naming rights to titans stadium? => Marlins ; 2) Mohamed Atta's #1 is a type of what? => Nissan Altima ; 3) Who bought the naming rights for the stadium? => Nissan"}
+{"id": "2hop__501624_181960", "t": 1, "cond": "direct_cap", "memory": "1) The Mud Bath >> creator => Bill Irwin; 2) #1 >> educated at => Broadway"}
+{"id": "2hop__501624_181960", "t": 1, "cond": "rec_chain", "memory": "1. #1 >> educated at: Bath Grammar School"}
+{"id": "2hop__501624_181960", "t": 1, "cond": "rec_append", "memory": "1) Where did #1 study? => Oriel College"}
+{"id": "2hop__501624_181960", "t": 2, "cond": "direct_cap", "memory": "1) The Mud Bath >> creator => Charles Bullfinch; 2) #1 >> educated at => Harvard College"}
+{"id": "2hop__501624_181960", "t": 2, "cond": "rec_chain", "memory": "1. #1 >> educated at: Bath Grammar School"}
+{"id": "2hop__501624_181960", "t": 2, "cond": "rec_append", "memory": "1) Where did #1 study? => Oriel College"}
+{"id": "2hop__501624_181960", "t": 3, "cond": "direct_cap", "memory": "1) The Mud Bath >> creator => Charles Bullfinch; 2) #1 >> educated at => Harvard College"}
+{"id": "2hop__501624_181960", "t": 3, "cond": "rec_chain", "memory": "1. The Mud Bath >> creator: David Bomberg. 2. #1 >> educated at: Bath Grammar School"}
+{"id": "2hop__501624_181960", "t": 3, "cond": "rec_append", "memory": "1) Where did #1 study? => Oriel College ; 2) The Mud Bath >> creator => David Bomberg"}
+{"id": "2hop__501624_181960", "t": 4, "cond": "direct_cap", "memory": "1) The Mud Bath >> creator => Charles Bullfinch; 2) #1 >> educated at => Harvard College"}
+{"id": "2hop__501624_181960", "t": 4, "cond": "rec_chain", "memory": "1. The Mud Bath >> creator: David Bomberg. 2. #1 >> educated at: Bath Grammar School"}
+{"id": "2hop__501624_181960", "t": 4, "cond": "rec_append", "memory": "1) Where did #1 study? => Oriel College ; 2) The Mud Bath >> creator => David Bomberg"}
+{"id": "2hop__501624_181960", "t": 5, "cond": "direct_cap", "memory": "1) The Mud Bath >> creator => Charles Bullfinch; 2) #1 >> educated at => Harvard College"}
+{"id": "2hop__501624_181960", "t": 5, "cond": "rec_chain", "memory": "1. The Mud Bath >> creator: David Bomberg. 2. #1 >> educated at: Bath Grammar School"}
+{"id": "2hop__501624_181960", "t": 5, "cond": "rec_append", "memory": "1) Where did #1 study? => Oriel College ; 2) The Mud Bath >> creator => David Bomberg"}
+{"id": "2hop__525242_52835", "t": 1, "cond": "direct_cap", "memory": "1) Happy Pills >> performer => Jacques Pills; 2) #1 >> spouse => Bruno Coquatrix"}
+{"id": "2hop__525242_52835", "t": 1, "cond": "rec_chain", "memory": "1. #1 >> performer of \"Happy Pills\" is Norah Jones"}
+{"id": "2hop__525242_52835", "t": 1, "cond": "rec_append", "memory": "1) Turn Me On >> performer => Norah Jones"}
+{"id": "2hop__525242_52835", "t": 2, "cond": "direct_cap", "memory": "1) Happy Pills >> performer => Jacques Pills; 2) #1 >> spouse => Bruno Coquatrix"}
+{"id": "2hop__525242_52835", "t": 2, "cond": "rec_chain", "memory": "1. #1 >> performer of \"Happy Pills\" is Norah Jones"}
+{"id": "2hop__525242_52835", "t": 2, "cond": "rec_append", "memory": "1) Turn Me On >> performer => Norah Jones"}
+{"id": "2hop__525242_52835", "t": 3, "cond": "direct_cap", "memory": "1) Happy Pills >> performer => Jacques Pills; 2) #1 >> spouse => Bruno Coquatrix"}
+{"id": "2hop__525242_52835", "t": 3, "cond": "rec_chain", "memory": "1. #1 >> performer of \"Happy Pills\" is Norah Jones"}
+{"id": "2hop__525242_52835", "t": 3, "cond": "rec_append", "memory": "1) Turn Me On >> performer => Norah Jones"}
+{"id": "2hop__525242_52835", "t": 4, "cond": "direct_cap", "memory": "1) Happy Pills >> performer => Jacques Pills; 2) #1 >> spouse => Bruno Coquatrix"}
+{"id": "2hop__525242_52835", "t": 4, "cond": "rec_chain", "memory": "1. Happy Pills >> performer is Norah Jones"}
+{"id": "2hop__525242_52835", "t": 4, "cond": "rec_append", "memory": "1) Turn Me On >> performer => Norah Jones ; 2) Happy Pills >> performer => Norah Jones ; 3) who wrote turn me on by #1 => Jones"}
+{"id": "2hop__525242_52835", "t": 5, "cond": "direct_cap", "memory": "1) Happy Pills >> performer => Jacques Pills; 2) #1 >> spouse => Bruno Coquatrix"}
+{"id": "2hop__525242_52835", "t": 5, "cond": "rec_chain", "memory": "1. Happy Pills >> performer is Norah Jones"}
+{"id": "2hop__525242_52835", "t": 5, "cond": "rec_append", "memory": "1) Turn Me On >> performer => Norah Jones ; 2) Happy Pills >> performer => Norah Jones ; 3) who wrote turn me on by #1 => Jones"}
+{"id": "2hop__527400_159673", "t": 1, "cond": "direct_cap", "memory": "1) Search for the Gods >> cast member => Morgan Freeman; 2) which film does #1 play a character in => Driving Miss Daisy"}
+{"id": "2hop__527400_159673", "t": 1, "cond": "rec_chain", "memory": "1. #1 >> film role: Daisy Werthan"}
+{"id": "2hop__527400_159673", "t": 1, "cond": "rec_append", "memory": "1) who does #1 play in #1 => Morgan Freeman"}
+{"id": "2hop__527400_159673", "t": 2, "cond": "direct_cap", "memory": "1) Search for the Gods >> cast member => Jenna Boyd; 2) Which film is #1 in? => The Missing"}
+{"id": "2hop__527400_159673", "t": 2, "cond": "rec_chain", "memory": "1. #1 >> film role: Daisy Werthan"}
+{"id": "2hop__527400_159673", "t": 2, "cond": "rec_append", "memory": "1) who does #1 play in #1 => Morgan Freeman"}
+{"id": "2hop__527400_159673", "t": 3, "cond": "direct_cap", "memory": "1) Search for the Gods >> cast member => Morgan Freeman; 2) which film does #1 play a character in => Driving Miss Daisy"}
+{"id": "2hop__527400_159673", "t": 3, "cond": "rec_chain", "memory": "1. #1 >> film role: Daisy Werthan"}
+{"id": "2hop__527400_159673", "t": 3, "cond": "rec_append", "memory": "1) who does #1 play in #1 => Morgan Freeman"}
+{"id": "2hop__527400_159673", "t": 4, "cond": "direct_cap", "memory": "1) Search for the Gods >> cast member => Jenna Boyd; 2) Which film is #1 in? => The Missing"}
+{"id": "2hop__527400_159673", "t": 4, "cond": "rec_chain", "memory": "1. #1 >> film role: Daisy Werthan"}
+{"id": "2hop__527400_159673", "t": 4, "cond": "rec_append", "memory": "1) who does #1 play in #1 => Morgan Freeman"}
+{"id": "2hop__527400_159673", "t": 5, "cond": "direct_cap", "memory": "1. Search for the Gods >> cast member => Jenna Boyd; 2) Which film is #1 in? => The Missing"}
+{"id": "2hop__527400_159673", "t": 5, "cond": "rec_chain", "memory": "1. Search for the Gods >> cast member: Kurt Russell\n2. #1 >> film role: Daisy Werthan"}
+{"id": "2hop__527400_159673", "t": 5, "cond": "rec_append", "memory": "1) who does #1 play in #1 => Morgan Freeman ; 2) Search for the Gods >> cast member => Kurt Russell"}
+{"id": "2hop__528263_865831", "t": 1, "cond": "direct_cap", "memory": "1) Kimbrough Memorial Stadium >> located in the administrative territorial entity => Moorea-Maiao; 2) #1 >> located in the administrative territorial entity => Windward Islands"}
+{"id": "2hop__528263_865831", "t": 1, "cond": "rec_chain", "memory": "1. #1 >> located in the administrative territorial entity, #2"}
+{"id": "2hop__528263_865831", "t": 1, "cond": "rec_append", "memory": "1) #1 >> located in the administrative territorial entity => Leeward Islands"}
+{"id": "2hop__528263_865831", "t": 2, "cond": "direct_cap", "memory": "1) Kimbrough Memorial Stadium >> located in the administrative territorial entity => Canyon; 2) #1 >> located in the administrative territorial entity => Canyon County"}
+{"id": "2hop__528263_865831", "t": 2, "cond": "rec_chain", "memory": "1. Kimbrough Memorial Stadium >> located in the administrative territorial entity, Canyon; 2. #1 >> located in the administrative territorial entity, #2"}
+{"id": "2hop__528263_865831", "t": 2, "cond": "rec_append", "memory": "1) #1 >> located in the administrative territorial entity => Leeward Islands ; 2) Kimbrough Memorial Stadium >> located in the administrative territorial entity => Canyon"}
+{"id": "2hop__528263_865831", "t": 3, "cond": "direct_cap", "memory": "1) Kimbrough Memorial Stadium >> located in the administrative territorial entity => Canyon; 2) #1 >> located in the administrative territorial entity => Canyon County"}
+{"id": "2hop__528263_865831", "t": 3, "cond": "rec_chain", "memory": "1. Kimbrough Memorial Stadium >> located in the administrative territorial entity, Canyon; 2. #1 >> located in the administrative territorial entity, #2"}
+{"id": "2hop__528263_865831", "t": 3, "cond": "rec_append", "memory": "1) #1 >> located in the administrative territorial entity => Leeward Islands ; 2) Kimbrough Memorial Stadium >> located in the administrative territorial entity => Canyon"}
+{"id": "2hop__528263_865831", "t": 4, "cond": "direct_cap", "memory": "1) Kimbrough Memorial Stadium >> located in the administrative territorial entity => Canyon; 2) #1 >> located in the administrative territorial entity => Canyon County"}
+{"id": "2hop__528263_865831", "t": 4, "cond": "rec_chain", "memory": "1. Kimbrough Memorial Stadium >> located in the administrative territorial entity, Canyon; 2. #1 >> located in the administrative territorial entity, #2"}
+{"id": "2hop__528263_865831", "t": 4, "cond": "rec_append", "memory": "1) #1 >> located in the administrative territorial entity => Leeward Islands ; 2) Kimbrough Memorial Stadium >> located in the administrative territorial entity => Canyon"}
+{"id": "2hop__528263_865831", "t": 5, "cond": "direct_cap", "memory": "1) Kimbrough Memorial Stadium >> located in the administrative territorial entity => Canyon; 2) #1 >> located in the administrative territorial entity => Canyon County"}
+{"id": "2hop__528263_865831", "t": 5, "cond": "rec_chain", "memory": "1. Kimbrough Memorial Stadium >> located in the administrative territorial entity, Canyon; 2. #1 >> located in the administrative territorial entity, #2"}
+{"id": "2hop__528263_865831", "t": 5, "cond": "rec_append", "memory": "1) #1 >> located in the administrative territorial entity => Leeward Islands ; 2) Kimbrough Memorial Stadium >> located in the administrative territorial entity => Canyon ; 3) #2 >> located in the administrative territorial entity => Randall County"}
+{"id": "2hop__59612_42429", "t": 1, "cond": "direct_cap", "memory": "1) What continent is London Broil from? => North America; 2) When did the French and Indian War end in #1 ? => 1763"}
+{"id": "2hop__59612_42429", "t": 1, "cond": "rec_chain", "memory": "1. When did the French and Indian War end on #2 ? 1763"}
+{"id": "2hop__59612_42429", "t": 1, "cond": "rec_append", "memory": "1) When did the French and Indian War end in #1 ? => 1763"}
+{"id": "2hop__59612_42429", "t": 2, "cond": "direct_cap", "memory": "1) What continent is London Broil from? => North American; 2) when did the french and indian war end on #1 => 1763"}
+{"id": "2hop__59612_42429", "t": 2, "cond": "rec_chain", "memory": "1. When did the French and Indian War end on #2 ? 1763"}
+{"id": "2hop__59612_42429", "t": 2, "cond": "rec_append", "memory": "1) When did the French and Indian War end in #1 ? => 1763"}
+{"id": "2hop__59612_42429", "t": 3, "cond": "direct_cap", "memory": "1) What continent is London Broil from? => North American; 2) when did the french and indian war end on #1 => 1763"}
+{"id": "2hop__59612_42429", "t": 3, "cond": "rec_chain", "memory": "1. London broil is a beef dish made by broiling marinated beef, then cutting it across the grain into thin strips. Despite its name, the dish and the terminology are North American, not British. 2. When did the French and Indian War end on #2 ? 1763"}
+{"id": "2hop__59612_42429", "t": 3, "cond": "rec_append", "memory": "1) When did the French and Indian War end in #1 ? => 1763 ; 2) London Broil >> country => North America"}
+{"id": "2hop__59612_42429", "t": 4, "cond": "direct_cap", "memory": "1) What continent is London Broil from? => North American; 2) when did the french and indian war end on #1 => 1763"}
+{"id": "2hop__59612_42429", "t": 4, "cond": "rec_chain", "memory": "1. London broil is a beef dish made by broiling marinated beef, then cutting it across the grain into thin strips. Despite its name, the dish and the terminology are North American, not British. 2. When did the French and Indian War end on #2 ? 1763"}
+{"id": "2hop__59612_42429", "t": 4, "cond": "rec_append", "memory": "1) When did the French and Indian War end in #1 ? => 1763 ; 2) London Broil >> country => North America"}
+{"id": "2hop__59612_42429", "t": 5, "cond": "direct_cap", "memory": "1) What continent is London Broil from? => North America; 2) when did the french and indian war end on #1 => 1763"}
+{"id": "2hop__59612_42429", "t": 5, "cond": "rec_chain", "memory": "1. London broil is a beef dish made by broiling marinated beef, then cutting it across the grain into thin strips. Despite its name, the dish and the terminology are North American, not British. 2. When did the French and Indian War end on #2 ? 1763"}
+{"id": "2hop__59612_42429", "t": 5, "cond": "rec_append", "memory": "1) When did the French and Indian War end in #1 ? => 1763 ; 2) London Broil >> country => North America"}
+{"id": "2hop__603365_120259", "t": 1, "cond": "direct_cap", "memory": "1. Otho Holland Williams >> participant in => American Revolutionary War; 2) When was #1 abolished? => 1794"}
+{"id": "2hop__603365_120259", "t": 1, "cond": "rec_chain", "memory": "1. When was #1 abolished? 1795"}
+{"id": "2hop__603365_120259", "t": 1, "cond": "rec_append", "memory": "1) When was #1 abolished? => 1795"}
+{"id": "2hop__603365_120259", "t": 2, "cond": "direct_cap", "memory": "1. Otho Holland Williams >> participant in => American Revolutionary War; 2) When was #1 abolished? => 1794"}
+{"id": "2hop__603365_120259", "t": 2, "cond": "rec_chain", "memory": "1. When was #1 abolished? 1795"}
+{"id": "2hop__603365_120259", "t": 2, "cond": "rec_append", "memory": "1) When was #1 abolished? => 1795"}
+{"id": "2hop__603365_120259", "t": 3, "cond": "direct_cap", "memory": "1. Otho Holland Williams >> participant in => American Revolutionary War; 2) When was #1 abolished? => 1795"}
+{"id": "2hop__603365_120259", "t": 3, "cond": "rec_chain", "memory": "1. When was #1 abolished? 1795"}
+{"id": "2hop__603365_120259", "t": 3, "cond": "rec_append", "memory": "1) When was #1 abolished? => 1795"}
+{"id": "2hop__603365_120259", "t": 4, "cond": "direct_cap", "memory": "1. Otho Holland Williams >> participant in => American Revolutionary War; 2) When was #1 abolished? => 1795"}
+{"id": "2hop__603365_120259", "t": 4, "cond": "rec_chain", "memory": "1. Battle of Maserfield >> participant 1. Oswald of Northumbria 2. When was #1 abolished? 1795"}
+{"id": "2hop__603365_120259", "t": 4, "cond": "rec_append", "memory": "1) When was #1 abolished? => 1795"}
+{"id": "2hop__603365_120259", "t": 5, "cond": "direct_cap", "memory": "1. Otho Holland Williams >> participant in => American Revolutionary War; 2) When was #1 abolished? => 1795"}
+{"id": "2hop__603365_120259", "t": 5, "cond": "rec_chain", "memory": "1. Battle of Maserfield >> participant 1. Oswald of Northumbria 2. When was #1 abolished? 1795"}
+{"id": "2hop__603365_120259", "t": 5, "cond": "rec_append", "memory": "1) When was #1 abolished? => 1795"}
+{"id": "2hop__613779_55984", "t": 1, "cond": "direct_cap", "memory": "1) That Wasn't Me >> performer => Don McLean; 2) who wrote the song the story sung by #1 => Don McLean"}
+{"id": "2hop__613779_55984", "t": 1, "cond": "rec_chain", "memory": "1. #1 >> performer of: That Wasn't Me"}
+{"id": "2hop__613779_55984", "t": 1, "cond": "rec_append", "memory": "1) who wrote the song #1 => Ananda Samarakoon"}
+{"id": "2hop__613779_55984", "t": 2, "cond": "direct_cap", "memory": "1) That Wasn't Me >> performer => Don McLean; 2) who wrote the song the story sung by #1 => Don McLean"}
+{"id": "2hop__613779_55984", "t": 2, "cond": "rec_chain", "memory": "1. #1 >> performer of: That Wasn't Me"}
+{"id": "2hop__613779_55984", "t": 2, "cond": "rec_append", "memory": "1) who wrote the song #1 => Ananda Samarakoon"}
+{"id": "2hop__613779_55984", "t": 3, "cond": "direct_cap", "memory": "1) That Wasn't Me >> performer => Don McLean; 2) who wrote the song the story sung by #1 => Don McLean"}
+{"id": "2hop__613779_55984", "t": 3, "cond": "rec_chain", "memory": "1. #1 >> performer of: That Wasn't Me"}
+{"id": "2hop__613779_55984", "t": 3, "cond": "rec_append", "memory": "1) who wrote the song #1 => Ananda Samarakoon"}
+{"id": "2hop__613779_55984", "t": 4, "cond": "direct_cap", "memory": "1) That Wasn't Me >> performer => Don McLean; 2) who wrote the song the story sung by #1 => Don McLean"}
+{"id": "2hop__613779_55984", "t": 4, "cond": "rec_chain", "memory": "1. That Wasn't Me >> performer: Brandi Carlile\n2. #1 >> performer of: The Story"}
+{"id": "2hop__613779_55984", "t": 4, "cond": "rec_append", "memory": "1) who wrote the song #1 => Ananda Samarakoon ; 2) That Wasn't Me >> performer => Brandi Carlile"}
+{"id": "2hop__613779_55984", "t": 5, "cond": "direct_cap", "memory": "1) That Wasn't Me >> performer => Don McLean; 2) who wrote the song the story sung by #1 => Don McLean"}
+{"id": "2hop__613779_55984", "t": 5, "cond": "rec_chain", "memory": "1. That Wasn't Me >> performer: Brandi Carlile\n2. #1 >> performer of: The Story\n3. who wrote the song #2 : Phil Hanseroth"}
+{"id": "2hop__613779_55984", "t": 5, "cond": "rec_append", "memory": "1) who wrote the song #1 => Ananda Samarakoon ; 2) That Wasn't Me >> performer => Brandi Carlile ; 3) who wrote the story song by #2 => Phil Hanseroth"}
+{"id": "2hop__635544_110949", "t": 1, "cond": "direct_cap", "memory": "1) Ratata >> has part => Shirley Abicair; 2) What is the date of birth for #1 ? => 1935"}
+{"id": "2hop__635544_110949", "t": 1, "cond": "rec_chain", "memory": "1. #1 >> date of birth: 1935"}
+{"id": "2hop__635544_110949", "t": 1, "cond": "rec_append", "memory": "1) What year was #1 born? => 1935"}
+{"id": "2hop__635544_110949", "t": 2, "cond": "direct_cap", "memory": "1) Ratata >> has part => Shirley Abicair; 2) What is the date of birth for #1 ? => 1935"}
+{"id": "2hop__635544_110949", "t": 2, "cond": "rec_chain", "memory": "1. #1 >> date of birth: 1935"}
+{"id": "2hop__635544_110949", "t": 2, "cond": "rec_append", "memory": "1) What year was #1 born? => 1935"}
+{"id": "2hop__635544_110949", "t": 3, "cond": "direct_cap", "memory": "1) Ratata >> has part => Shirley Abicair; 2) What is the date of birth for #1 ? => 1935"}
+{"id": "2hop__635544_110949", "t": 3, "cond": "rec_chain", "memory": "1. #1 >> date of birth: 1935"}
+{"id": "2hop__635544_110949", "t": 3, "cond": "rec_append", "memory": "1) What year was #1 born? => 1935"}
+{"id": "2hop__635544_110949", "t": 4, "cond": "direct_cap", "memory": "1) Ratata >> has part => Shirley Abicair; 2) What is the date of birth for #1 ? => 1935"}
+{"id": "2hop__635544_110949", "t": 4, "cond": "rec_chain", "memory": "1. #1 >> date of birth: 1935"}
+{"id": "2hop__635544_110949", "t": 4, "cond": "rec_append", "memory": "1) What year was #1 born? => 1935"}
+{"id": "2hop__635544_110949", "t": 5, "cond": "direct_cap", "memory": "1) Ratata >> has part => Shirley Abicair; 2) What is the date of birth for #1 ? => 1935"}
+{"id": "2hop__635544_110949", "t": 5, "cond": "rec_chain", "memory": "1. Ratata >> member: Mauro Scocco; 2. #1 >> date of birth: 1935"}
+{"id": "2hop__635544_110949", "t": 5, "cond": "rec_append", "memory": "1) What year was #1 born? => 1935 ; 2) Ratata >> member => Mauro Scocco ; 3) What is the date of birth of #2 ? => 11 September 1962"}
+{"id": "2hop__646573_83769", "t": 1, "cond": "direct_cap", "memory": "1. Push >> creator => Todd Liebenstein; 2. who did #1 play in dazed and confused => the Washington Redskins"}
+{"id": "2hop__646573_83769", "t": 1, "cond": "rec_chain", "memory": "1. #1 >> performer of: Dazed and Confused"}
+{"id": "2hop__646573_83769", "t": 1, "cond": "rec_append", "memory": "1) Who did #1 play in Dazed and Confused? => Todd E. Liebenstein"}
+{"id": "2hop__646573_83769", "t": 2, "cond": "direct_cap", "memory": "1. Push >> creator => Todd Liebenstein; 2. who did #1 play in dazed and confused => Washington Redskins"}
+{"id": "2hop__646573_83769", "t": 2, "cond": "rec_chain", "memory": "1. #1 >> performer of: Dazed and Confused"}
+{"id": "2hop__646573_83769", "t": 2, "cond": "rec_append", "memory": "1) Who did #1 play in Dazed and Confused? => Todd E. Liebenstein"}
+{"id": "2hop__646573_83769", "t": 3, "cond": "direct_cap", "memory": "1. Push >> creator => Todd Liebenstein; 2. who did #1 play in dazed and confused => Washington Redskins"}
+{"id": "2hop__646573_83769", "t": 3, "cond": "rec_chain", "memory": "1. Push, Nevada >> creator: Ben Affleck; 2. #1 >> performer of: Dazed and Confused"}
+{"id": "2hop__646573_83769", "t": 3, "cond": "rec_append", "memory": "1) Who did #1 play in Dazed and Confused? => Todd E. Liebenstein ; 2) Push, Nevada >> creator => Ben Affleck"}
+{"id": "2hop__646573_83769", "t": 4, "cond": "direct_cap", "memory": "1. Push >> creator => Todd Liebenstein; 2. who did #1 play in dazed and confused => Washington Redskins"}
+{"id": "2hop__646573_83769", "t": 4, "cond": "rec_chain", "memory": "1. Push, Nevada >> creator: Ben Affleck; 2. #1 >> performer of: Dazed and Confused"}
+{"id": "2hop__646573_83769", "t": 4, "cond": "rec_append", "memory": "1) Who did #1 play in Dazed and Confused? => Todd E. Liebenstein ; 2) Push, Nevada >> creator => Ben Affleck"}
+{"id": "2hop__646573_83769", "t": 5, "cond": "direct_cap", "memory": "1. Push >> creator => Todd Liebenstein; 2. who did #1 play in dazed and confused => Washington Redskins"}
+{"id": "2hop__646573_83769", "t": 5, "cond": "rec_chain", "memory": "1. Push, Nevada >> creator: Ben Affleck; 2. #1 >> performer of: Dazed and Confused"}
+{"id": "2hop__646573_83769", "t": 5, "cond": "rec_append", "memory": "1) Who did #1 play in Dazed and Confused? => Todd E. Liebenstein ; 2) Push, Nevada >> creator => Ben Affleck"}
+{"id": "2hop__66708_573255", "t": 1, "cond": "direct_cap", "memory": "1) who was the first king of israel in the bible => Saul; 2) #1 >> spouse => Michal"}
+{"id": "2hop__66708_573255", "t": 1, "cond": "rec_chain", "memory": "1. who was the first king of israel according to the bible #1"}
+{"id": "2hop__66708_573255", "t": 1, "cond": "rec_append", "memory": "1) who was the first king of israel according to the bible => Saul"}
+{"id": "2hop__66708_573255", "t": 2, "cond": "direct_cap", "memory": "1) who was the first king of israel according to the bible => Saul; 2) #1 >> spouse => Michal"}
+{"id": "2hop__66708_573255", "t": 2, "cond": "rec_chain", "memory": "1. who was the first king of israel according to the bible #1"}
+{"id": "2hop__66708_573255", "t": 2, "cond": "rec_append", "memory": "1) who was the first king of israel according to the bible => Saul ; 2) #1 >> spouse => Ahinoam"}
+{"id": "2hop__66708_573255", "t": 3, "cond": "direct_cap", "memory": "1) who was the first king of israel in the bible => Saul; 2) #1 >> spouse => Michal"}
+{"id": "2hop__66708_573255", "t": 3, "cond": "rec_chain", "memory": "1. who was the first king of israel according to the bible #1"}
+{"id": "2hop__66708_573255", "t": 3, "cond": "rec_append", "memory": "1) who was the first king of israel according to the bible => Saul ; 2) #1 >> spouse => Ahinoam"}
+{"id": "2hop__66708_573255", "t": 4, "cond": "direct_cap", "memory": "1) who was the first king of israel in the bible => Saul; 2) #1 >> spouse => Michal"}
+{"id": "2hop__66708_573255", "t": 4, "cond": "rec_chain", "memory": "1. who was the first king of israel according to the bible #1"}
+{"id": "2hop__66708_573255", "t": 4, "cond": "rec_append", "memory": "1) who was the first king of israel according to the bible => Saul ; 2) #1 >> spouse => Ahinoam"}
+{"id": "2hop__66708_573255", "t": 5, "cond": "direct_cap", "memory": "1) who was the first king of israel in the bible => Saul; 2) #1 >> spouse => Michal"}
+{"id": "2hop__66708_573255", "t": 5, "cond": "rec_chain", "memory": "1. who was the first king of israel according to the bible #1"}
+{"id": "2hop__66708_573255", "t": 5, "cond": "rec_append", "memory": "1) who was the first king of israel according to the bible => Saul ; 2) #1 >> spouse => Ahinoam"}
+{"id": "2hop__702496_430061", "t": 1, "cond": "direct_cap", "memory": "1) Tim DuBois >> place of birth => Minsk Region; 2) #1 >> located in the administrative territorial entity => Minsk Oblast"}
+{"id": "2hop__702496_430061", "t": 1, "cond": "rec_chain", "memory": "1. #1 >> place of birth: Minsk"}
+{"id": "2hop__702496_430061", "t": 1, "cond": "rec_append", "memory": "1) What state was Tim Dubois born in? => Allison DuBois"}
+{"id": "2hop__702496_430061", "t": 2, "cond": "direct_cap", "memory": "1) Tim DuBois >> place of birth => Missouri; 2) #1 >> located in the administrative territorial entity => State of Missouri"}
+{"id": "2hop__702496_430061", "t": 2, "cond": "rec_chain", "memory": "1. Tim DuBois >> place of birth: Southwest City"}
+{"id": "2hop__702496_430061", "t": 2, "cond": "rec_append", "memory": "1) What state was Tim Dubois born in? => Allison DuBois ; 2) Tim DuBois >> place of birth => Southwest City"}
+{"id": "2hop__702496_430061", "t": 3, "cond": "direct_cap", "memory": "1) Tim DuBois >> place of birth => Minsk Region; 2) #1 >> located in the administrative territorial entity => Minsk Oblast"}
+{"id": "2hop__702496_430061", "t": 3, "cond": "rec_chain", "memory": "1. Tim DuBois >> place of birth: Southwest City"}
+{"id": "2hop__702496_430061", "t": 3, "cond": "rec_append", "memory": "1) What state was Tim Dubois born in? => Allison DuBois ; 2) Tim DuBois >> place of birth => Southwest City"}
+{"id": "2hop__702496_430061", "t": 4, "cond": "direct_cap", "memory": "1) Tim DuBois >> place of birth => Missouri; 2) #1 >> located in the administrative territorial entity => Southwest City"}
+{"id": "2hop__702496_430061", "t": 4, "cond": "rec_chain", "memory": "1. Tim DuBois >> place of birth: Southwest City"}
+{"id": "2hop__702496_430061", "t": 4, "cond": "rec_append", "memory": "1) What state was Tim Dubois born in? => Allison DuBois ; 2) Tim DuBois >> place of birth => Southwest City"}
+{"id": "2hop__702496_430061", "t": 5, "cond": "direct_cap", "memory": "1) Tim DuBois >> place of birth => Minsk Region; 2) #1 >> located in the administrative territorial entity => Minsk Oblast"}
+{"id": "2hop__702496_430061", "t": 5, "cond": "rec_chain", "memory": "1. Tim DuBois >> place of birth: Southwest City\n2. #1 >> located in the administrative territorial entity: McDonald County"}
+{"id": "2hop__702496_430061", "t": 5, "cond": "rec_append", "memory": "1) What state was Tim Dubois born in? => Allison DuBois ; 2) Tim DuBois >> place of birth => Southwest City ; 3) #1 >> located in the administrative territorial entity => McDonald County"}
+{"id": "2hop__77878_189357", "t": 1, "cond": "direct_cap", "memory": "1) who was the first woman appointed to the supreme court => Pauliine Koskelo; 2) #1 >> educated at => University of Helsinki"}
+{"id": "2hop__77878_189357", "t": 1, "cond": "rec_chain", "memory": "1. #1 >> educated at: University of East Anglia"}
+{"id": "2hop__77878_189357", "t": 1, "cond": "rec_append", "memory": "1) Where was #1 educated? => University of East Anglia"}
+{"id": "2hop__77878_189357", "t": 2, "cond": "direct_cap", "memory": "1) who was the first woman appointed to the supreme court => Pauliine Koskelo; 2) #1 >> educated at => University of Helsinki"}
+{"id": "2hop__77878_189357", "t": 2, "cond": "rec_chain", "memory": "1. #1 >> educated at: University of East Anglia"}
+{"id": "2hop__77878_189357", "t": 2, "cond": "rec_append", "memory": "1) Where was #1 educated? => University of East Anglia ; 2) who was the first woman appointed to the supreme court => Sandra Day O'Connor"}
+{"id": "2hop__77878_189357", "t": 3, "cond": "direct_cap", "memory": "1) who was the first woman appointed to the supreme court => Pauliine Koskelo; 2) #1 >> educated at => University of Helsinki"}
+{"id": "2hop__77878_189357", "t": 3, "cond": "rec_chain", "memory": "1. #1 >> educated at: University of East Anglia"}
+{"id": "2hop__77878_189357", "t": 3, "cond": "rec_append", "memory": "1) Where was #1 educated? => University of East Anglia ; 2) who was the first woman appointed to the supreme court => Sandra Day O'Connor"}
+{"id": "2hop__77878_189357", "t": 4, "cond": "direct_cap", "memory": "1. who was the first woman appointed to the supreme court => Pauliine Koskelo; 2. #1 >> educated at => University of Helsinki"}
+{"id": "2hop__77878_189357", "t": 4, "cond": "rec_chain", "memory": "1. #1 >> educated at: University of East Anglia"}
+{"id": "2hop__77878_189357", "t": 4, "cond": "rec_append", "memory": "1) Where was #1 educated? => University of East Anglia ; 2) who was the first woman appointed to the supreme court => Sandra Day O'Connor ; 3) #2 >> educated by => Stanford University"}
+{"id": "2hop__77878_189357", "t": 5, "cond": "direct_cap", "memory": "1) who was the first woman appointed to the supreme court => Pauliine Koskelo; 2) #1 >> educated at => University of Helsinki"}
+{"id": "2hop__77878_189357", "t": 5, "cond": "rec_chain", "memory": "1. #1 >> educated at: University of East Anglia"}
+{"id": "2hop__77878_189357", "t": 5, "cond": "rec_append", "memory": "1) Where was #1 educated? => University of East Anglia ; 2) who was the first woman appointed to the supreme court => Sandra Day O'Connor ; 3) #2 >> educated by => Stanford University"}
+{"id": "2hop__780652_93362", "t": 1, "cond": "direct_cap", "memory": "1) Anil Devgan >> sibling => Ajay Devgan; 2) #1 >> film => Parched"}
+{"id": "2hop__780652_93362", "t": 1, "cond": "rec_chain", "memory": "1. #1 >> sibling: Ajay Devgan"}
+{"id": "2hop__780652_93362", "t": 1, "cond": "rec_append", "memory": "1) What film features #1 ? => Love Kiya Aur Lag Gayi"}
+{"id": "2hop__780652_93362", "t": 2, "cond": "direct_cap", "memory": "1) Anil Devgan >> sibling => Ajay Devgan; 2) #1 >> film => Parched"}
+{"id": "2hop__780652_93362", "t": 2, "cond": "rec_chain", "memory": "1. #1 >> sibling: Ajay Devgan"}
+{"id": "2hop__780652_93362", "t": 2, "cond": "rec_append", "memory": "1) What film features #1 ? => Love Kiya Aur Lag Gayi"}
+{"id": "2hop__780652_93362", "t": 3, "cond": "direct_cap", "memory": "1) Anil Devgan >> sibling => Ajay Devgan; 2) #1 >> film => Parched"}
+{"id": "2hop__780652_93362", "t": 3, "cond": "rec_chain", "memory": "1. Anil Devgan >> sibling: Ajay Devgan"}
+{"id": "2hop__780652_93362", "t": 3, "cond": "rec_append", "memory": "1) What film features #1 ? => Love Kiya Aur Lag Gayi ; 2) Anil Devgan >> sibling => Ajay Devgan"}
+{"id": "2hop__780652_93362", "t": 4, "cond": "direct_cap", "memory": "1) Anil Devgan >> sibling => Ajay Devgan; 2) #1 >> film or television => Parched"}
+{"id": "2hop__780652_93362", "t": 4, "cond": "rec_chain", "memory": "1. Anil Devgan >> sibling: Ajay Devgan"}
+{"id": "2hop__780652_93362", "t": 4, "cond": "rec_append", "memory": "1) What film features #1 ? => Love Kiya Aur Lag Gayi ; 2) Anil Devgan >> sibling => Ajay Devgan"}
+{"id": "2hop__780652_93362", "t": 5, "cond": "direct_cap", "memory": "1) Anil Devgan >> sibling => Ajay Devgan; 2) #1 >> film => Parched"}
+{"id": "2hop__780652_93362", "t": 5, "cond": "rec_chain", "memory": "1. Anil Devgan >> sibling: Ajay Devgan"}
+{"id": "2hop__780652_93362", "t": 5, "cond": "rec_append", "memory": "1) What film features #1 ? => Love Kiya Aur Lag Gayi ; 2) Anil Devgan >> sibling => Ajay Devgan"}
+{"id": "2hop__819974_129669", "t": 1, "cond": "direct_cap", "memory": "1) Póvoa de Santa Iria >> located in the administrative territorial entity => Mangualde; 2) #1 >> located in the administrative territorial entity => Viseu"}
+{"id": "2hop__819974_129669", "t": 1, "cond": "rec_chain", "memory": "1. #1 >> located in the administrative territorial entity: Mangualde"}
+{"id": "2hop__819974_129669", "t": 1, "cond": "rec_append", "memory": "1) Póvoa de Santa Iria >> located in the administrative territorial entity => Mangualde"}
+{"id": "2hop__819974_129669", "t": 2, "cond": "direct_cap", "memory": "1) Póvoa de Santa Iria >> located in the administrative territorial entity => Mangualde; 2) #1 >> located in the administrative territorial entity => Viseu"}
+{"id": "2hop__819974_129669", "t": 2, "cond": "rec_chain", "memory": "1. #1 >> located in the administrative territorial entity: Mangualde"}
+{"id": "2hop__819974_129669", "t": 2, "cond": "rec_append", "memory": "1) Póvoa de Santa Iria >> located in the administrative territorial entity => Mangualde"}
+{"id": "2hop__819974_129669", "t": 3, "cond": "direct_cap", "memory": "1) Póvoa de Santa Iria >> located in the administrative territorial entity => Mangualde; 2) #1 >> located in the administrative territorial entity => Viseu"}
+{"id": "2hop__819974_129669", "t": 3, "cond": "rec_chain", "memory": "1. #1 >> located in the administrative territorial entity: Mangualde"}
+{"id": "2hop__819974_129669", "t": 3, "cond": "rec_append", "memory": "1) Póvoa de Santa Iria >> located in the administrative territorial entity => Mangualde"}
+{"id": "2hop__819974_129669", "t": 4, "cond": "direct_cap", "memory": "1) Póvoa de Santa Iria >> located in the administrative territorial entity => Mangualde; 2) #1 >> located in the administrative territorial entity => Viseu"}
+{"id": "2hop__819974_129669", "t": 4, "cond": "rec_chain", "memory": "1. #1 >> located in the administrative territorial entity: Mangualde"}
+{"id": "2hop__819974_129669", "t": 4, "cond": "rec_append", "memory": "1) Póvoa de Santa Iria >> located in the administrative territorial entity => Mangualde"}
+{"id": "2hop__819974_129669", "t": 5, "cond": "direct_cap", "memory": "1) Póvoa de Santa Iria >> located in the administrative territorial entity => Mangualde; 2) #1 >> located in the administrative territorial entity => Viseu"}
+{"id": "2hop__819974_129669", "t": 5, "cond": "rec_chain", "memory": "1. Póvoa de Santa Iria >> located in the administrative territorial entity: Vila Franca de Xira\n2. #1 >> located in the administrative territorial entity: Mangualde"}
+{"id": "2hop__819974_129669", "t": 5, "cond": "rec_append", "memory": "1) Póvoa de Santa Iria >> located in the administrative territorial entity => Mangualde"}
+{"id": "2hop__91626_96912", "t": 1, "cond": "direct_cap", "memory": "1. The Wealth of Nations >> author => Adam Smith; 2. Who gives out the #1 Prize? => PEN Center USA"}
+{"id": "2hop__91626_96912", "t": 1, "cond": "rec_chain", "memory": "1. #1 >> award given by: National Music Prize"}
+{"id": "2hop__91626_96912", "t": 1, "cond": "rec_append", "memory": "1) Who gave out the #1 ? => Before Columbus Foundation"}
+{"id": "2hop__91626_96912", "t": 2, "cond": "direct_cap", "memory": "1) The Wealth of Nations >> author => Adam Smith; 2) Who gives out the #1 Prize? => the National Academy of Sciences"}
+{"id": "2hop__91626_96912", "t": 2, "cond": "rec_chain", "memory": "1. #1 >> award given by: National Music Prize"}
+{"id": "2hop__91626_96912", "t": 2, "cond": "rec_append", "memory": "1) Who gave out the #1 ? => Before Columbus Foundation"}
+{"id": "2hop__91626_96912", "t": 3, "cond": "direct_cap", "memory": "1) The Wealth of Nations >> author => Adam Smith; 2) Who gives out the #1 Prize? => the National Academy of Sciences"}
+{"id": "2hop__91626_96912", "t": 3, "cond": "rec_chain", "memory": "1. #1 >> award given by: National Music Prize"}
+{"id": "2hop__91626_96912", "t": 3, "cond": "rec_append", "memory": "1) Who gave out the #1 ? => Before Columbus Foundation"}
+{"id": "2hop__91626_96912", "t": 4, "cond": "direct_cap", "memory": "1) The Wealth of Nations >> author => Adam Smith; 2) Who gives out the #1 Prize? => University of Cambridge"}
+{"id": "2hop__91626_96912", "t": 4, "cond": "rec_chain", "memory": "1. The Wealth of Nations >> author: Adam Smith\n2. #1 >> award given by: National Music Prize"}
+{"id": "2hop__91626_96912", "t": 4, "cond": "rec_append", "memory": "1) Who gave out the #1 ? => Before Columbus Foundation ; 2) The Wealth of Nations >> author => Adam Smith"}
+{"id": "2hop__91626_96912", "t": 5, "cond": "direct_cap", "memory": "1. The author of The Wealth of Nations was Adam Smith. => 2. Who gives out the #1 Prize? => the National Academy of Sciences"}
+{"id": "2hop__91626_96912", "t": 5, "cond": "rec_chain", "memory": "1. The Wealth of Nations >> author: Adam Smith\n2. #1 >> award given by: National Music Prize"}
+{"id": "2hop__91626_96912", "t": 5, "cond": "rec_append", "memory": "1) Who gave out the #1 ? => Before Columbus Foundation ; 2) The Wealth of Nations >> author => Adam Smith"}
+{"id": "2hop__95794_55227", "t": 1, "cond": "direct_cap", "memory": "1. Here Comes the Boom >> performer => Blair Underwood; 2) #1 >> spouse => Russell Simmons"}
+{"id": "2hop__95794_55227", "t": 1, "cond": "rec_chain", "memory": "1. #1 >> spouse: Verna Hillie"}
+{"id": "2hop__95794_55227", "t": 1, "cond": "rec_append", "memory": "1) #1 >> spouse => Verna Hillie"}
+{"id": "2hop__95794_55227", "t": 2, "cond": "direct_cap", "memory": "1. Here Comes the Boom >> performer => Adam Sandler; 2. #1 >> spouse => Roxanne"}
+{"id": "2hop__95794_55227", "t": 2, "cond": "rec_chain", "memory": "1. #1 >> spouse: Verna Hillie"}
+{"id": "2hop__95794_55227", "t": 2, "cond": "rec_append", "memory": "1) #1 >> spouse => Verna Hillie"}
+{"id": "2hop__95794_55227", "t": 3, "cond": "direct_cap", "memory": "1. Here Comes the Boom >> performer => Tim Boland; 2) #1 >> spouse => Susan"}
+{"id": "2hop__95794_55227", "t": 3, "cond": "rec_chain", "memory": "1. #1 >> spouse: Verna Hillie"}
+{"id": "2hop__95794_55227", "t": 3, "cond": "rec_append", "memory": "1) #1 >> spouse => Verna Hillie"}
+{"id": "2hop__95794_55227", "t": 4, "cond": "direct_cap", "memory": "1. Here Comes the Boom >> performer => Tim Boland; 2) #1 >> spouse => Joan Crawford"}
+{"id": "2hop__95794_55227", "t": 4, "cond": "rec_chain", "memory": "1. Here Comes the Boom >> performer: Kevin James. 2. #1 >> spouse: Verna Hillie"}
+{"id": "2hop__95794_55227", "t": 4, "cond": "rec_append", "memory": "1) #1 >> spouse => Verna Hillie ; 2) who starred in here comes the boom => Kevin James"}
+{"id": "2hop__95794_55227", "t": 5, "cond": "direct_cap", "memory": "1. Here Comes the Boom >> performer => Adam Sandler; 2. who is #1 married to in the movie grown ups => Roxanne"}
+{"id": "2hop__95794_55227", "t": 5, "cond": "rec_chain", "memory": "1. Here Comes the Boom >> performer: Kevin James. 2. #1 >> spouse: Verna Hillie"}
+{"id": "2hop__95794_55227", "t": 5, "cond": "rec_append", "memory": "1) #1 >> spouse => Verna Hillie ; 2) who starred in here comes the boom => Kevin James"}
+{"id": "3hop1__103662_443779_52195", "t": 1, "cond": "direct_cap", "memory": "1. Radiansyah >> place of birth => Indonesia; 2. #1 >> Commission of Truth and Friendship with => East Timor; 3. who is the president of newly declared independent country #2 => Francisco Guterres"}
+{"id": "3hop1__103662_443779_52195", "t": 1, "cond": "rec_chain", "memory": "1. who is the president of newly declared independent country #2 #1"}
+{"id": "3hop1__103662_443779_52195", "t": 1, "cond": "rec_append", "memory": "1) Who is the president of #2 ? => Francisco Guterres"}
+{"id": "3hop1__103662_443779_52195", "t": 2, "cond": "direct_cap", "memory": "1) Radiansyah >> place of birth => Indonesia; 2) #1 >> Commission of Truth and Friendship => East Timor; 3) who is the president of newly declared independent country #2 => Francisco Guterres"}
+{"id": "3hop1__103662_443779_52195", "t": 2, "cond": "rec_chain", "memory": "1. Radiansyah >> country of birth: Indonesia 2. who is the president of newly declared independent country #2 #1"}
+{"id": "3hop1__103662_443779_52195", "t": 2, "cond": "rec_append", "memory": "1) Who is the president of #2 ? => Francisco Guterres ; 2) Radiansyah >> country => Indonesia"}
+{"id": "3hop1__103662_443779_52195", "t": 3, "cond": "direct_cap", "memory": "1) Radiansyah >> place of birth => Indonesia; 2) #1 >> Commission of Truth and Friendship => East Timor; 3) who is the president of newly declared independent country #2 => Francisco Guterres"}
+{"id": "3hop1__103662_443779_52195", "t": 3, "cond": "rec_chain", "memory": "1. Radiansyah >> country of birth: Indonesia 2. who is the president of newly declared independent country #2 #1"}
+{"id": "3hop1__103662_443779_52195", "t": 3, "cond": "rec_append", "memory": "1) Who is the president of #2 ? => Francisco Guterres ; 2) Radiansyah >> country => Indonesia"}
+{"id": "3hop1__103662_443779_52195", "t": 4, "cond": "direct_cap", "memory": "1. Radiansyah >> place of birth => Indonesia; 2) Commission of Truth and Friendship >> country => East Timor; 3) who is the president of newly declared independent #2 => Francisco Guterres"}
+{"id": "3hop1__103662_443779_52195", "t": 4, "cond": "rec_chain", "memory": "1. Radiansyah >> country of birth: Indonesia 2. who is the president of newly declared independent country #2 #1"}
+{"id": "3hop1__103662_443779_52195", "t": 4, "cond": "rec_append", "memory": "1) Who is the president of #2 ? => Francisco Guterres ; 2) Radiansyah >> country => Indonesia ; 3) What country is part of the Commission of Truth and Friendship with #1 ? => East Timor"}
+{"id": "3hop1__103662_443779_52195", "t": 5, "cond": "direct_cap", "memory": "1. Radiansyah >> place of birth => Indonesia; 2) Commission of Truth and Friendship >> country => East Timor; 3) who is the president of newly declared independent #2 => Francisco Guterres"}
+{"id": "3hop1__103662_443779_52195", "t": 5, "cond": "rec_chain", "memory": "1. Radiansyah >> country of birth: Indonesia 2. who is the president of newly declared independent country #2 #1"}
+{"id": "3hop1__103662_443779_52195", "t": 5, "cond": "rec_append", "memory": "1) Who is the president of #2 ? => Francisco Guterres ; 2) Radiansyah >> country => Indonesia ; 3) What country is part of the Commission of Truth and Friendship with #1 ? => East Timor"}
+{"id": "3hop1__109113_720914_41132", "t": 1, "cond": "direct_cap", "memory": "1. Venus with a Mirror >> creator => Titian; 2. #1 >> place of death => Venice; 3. How many times did plague occur in #2 ? => five to 15 years"}
+{"id": "3hop1__109113_720914_41132", "t": 1, "cond": "rec_chain", "memory": "1. #1 >> place of death: Venice"}
+{"id": "3hop1__109113_720914_41132", "t": 1, "cond": "rec_append", "memory": "1) How many times did plague occur in #1 ? => 5 to 15 years"}
+{"id": "3hop1__109113_720914_41132", "t": 2, "cond": "direct_cap", "memory": "1. Venus with a Mirror >> creator => Titian; 2. #1 >> place of death => Venice; 3. How many times did plague occur in #2 ? => three"}
+{"id": "3hop1__109113_720914_41132", "t": 2, "cond": "rec_chain", "memory": "1. #1 >> place of death: Venice"}
+{"id": "3hop1__109113_720914_41132", "t": 2, "cond": "rec_append", "memory": "1) How many times did plague occur in #1 ? => 5 to 15 years"}
+{"id": "3hop1__109113_720914_41132", "t": 3, "cond": "direct_cap", "memory": "1. Venus with a Mirror >> creator => Titian; 2) #1 >> place of death => Venice; 3) How many times did plague occur in #2 ? => three"}
+{"id": "3hop1__109113_720914_41132", "t": 3, "cond": "rec_chain", "memory": "1. #1 >> place of death: Venice"}
+{"id": "3hop1__109113_720914_41132", "t": 3, "cond": "rec_append", "memory": "1) How many times did plague occur in #1 ? => 5 to 15 years"}
+{"id": "3hop1__109113_720914_41132", "t": 4, "cond": "direct_cap", "memory": "1. Venus with a Mirror >> creator => Titian; 2. #1 >> place of death => Venice; 3. How many times did plague occur in #2 ? => three to five million"}
+{"id": "3hop1__109113_720914_41132", "t": 4, "cond": "rec_chain", "memory": "1. #1 >> place of death: Venice"}
+{"id": "3hop1__109113_720914_41132", "t": 4, "cond": "rec_append", "memory": "1) How many times did plague occur in #1 ? => 5 to 15 years"}
+{"id": "3hop1__109113_720914_41132", "t": 5, "cond": "direct_cap", "memory": "1. Venus with a Mirror >> creator => Titian; 2. #1 >> place of death => Venice; 3. How many times did plague occur in #2 ? => five to 15 years"}
+{"id": "3hop1__109113_720914_41132", "t": 5, "cond": "rec_chain", "memory": "1. Venus with a Mirror >> creator: Titian\n2. #1 >> place of death: Venice\n3. How many times did plague occur in #2 ? 22"}
+{"id": "3hop1__109113_720914_41132", "t": 5, "cond": "rec_append", "memory": "1) How many times did plague occur in #1 ? => 5 to 15 years ; 2) Venus with a Mirror >> creator => Titian"}
+{"id": "3hop1__131110_39743_24526", "t": 1, "cond": "direct_cap", "memory": "1) Walnut Spring >> located in the administrative territorial entity => Richmond; 2) #1 >> located in the administrative territorial entity => North Carolina; 3) what is the typical winter daytime temperature range in #2 => upper 40s–lower 50s °F"}
+{"id": "3hop1__131110_39743_24526", "t": 1, "cond": "rec_chain", "memory": "1. #1 >> located in the administrative territorial entity: North Carolina"}
+{"id": "3hop1__131110_39743_24526", "t": 1, "cond": "rec_append", "memory": "1) What is the typical winter daytime temperature range in #1 ? => upper 40s–lower 50s °F"}
+{"id": "3hop1__131110_39743_24526", "t": 2, "cond": "direct_cap", "memory": "1) Walnut Spring >> located in the administrative territorial entity => North Carolina; 2) what is the typical winter daytime temperature range in the #1 region of richmond => upper 40s–lower 50s °F"}
+{"id": "3hop1__131110_39743_24526", "t": 2, "cond": "rec_chain", "memory": "1. #1 >> located in the administrative territorial entity: North Carolina"}
+{"id": "3hop1__131110_39743_24526", "t": 2, "cond": "rec_append", "memory": "1) What is the typical winter daytime temperature range in #1 ? => upper 40s–lower 50s °F"}
+{"id": "3hop1__131110_39743_24526", "t": 3, "cond": "direct_cap", "memory": "1) Walnut Spring >> located in the administrative territorial entity => North Carolina; 2) what is the typical winter daytime temperature range in the #1 region of richmond => upper 40s–lower 50s °F"}
+{"id": "3hop1__131110_39743_24526", "t": 3, "cond": "rec_chain", "memory": "1. #1 >> located in the administrative territorial entity: North Carolina"}
+{"id": "3hop1__131110_39743_24526", "t": 3, "cond": "rec_append", "memory": "1) What is the typical winter daytime temperature range in #1 ? => upper 40s–lower 50s °F"}
+{"id": "3hop1__131110_39743_24526", "t": 4, "cond": "direct_cap", "memory": "1) Walnut Spring >> located in the administrative territorial entity => North Carolina; 2) what is the typical winter daytime temperature range in the #1 region of richmond => upper 40s–lower 50s °F"}
+{"id": "3hop1__131110_39743_24526", "t": 4, "cond": "rec_chain", "memory": "1. #1 >> located in the administrative territorial entity: North Carolina"}
+{"id": "3hop1__131110_39743_24526", "t": 4, "cond": "rec_append", "memory": "1) What is the typical winter daytime temperature range in #1 ? => upper 40s–lower 50s °F ; 2) Richmond >> located in the administrative territorial entity => Virginia"}
+{"id": "3hop1__131110_39743_24526", "t": 5, "cond": "direct_cap", "memory": "1) Walnut Spring >> located in the administrative territorial entity => North Carolina; 2) what is the typical winter daytime temperature range in the #1 region of richmond => upper 40s–lower 50s °F"}
+{"id": "3hop1__131110_39743_24526", "t": 5, "cond": "rec_chain", "memory": "1. Walnut Spring >> located in the administrative territorial entity: Montgomery County 2. #1 >> located in the administrative territorial entity: North Carolina"}
+{"id": "3hop1__131110_39743_24526", "t": 5, "cond": "rec_append", "memory": "1) What is the typical winter daytime temperature range in #1 ? => upper 40s–lower 50s °F ; 2) Richmond >> located in the administrative territorial entity => Virginia ; 3) Walnut Spring >> located in the administrative territorial entity => Montgomery County"}
+{"id": "3hop1__131829_39743_24526", "t": 1, "cond": "direct_cap", "memory": "1. WXBX >> located in the administrative territorial entity => Richmond; 2) #1 >> located in the administrative territorial entity => Wake County; 3) #2 >> located in the administrative territorial entity => North Carolina; 4) In winter, what is the average daytime temperature in #3 ? => upper 40s–lower 50s °F"}
+{"id": "3hop1__131829_39743_24526", "t": 1, "cond": "rec_chain", "memory": "1. What is the average winter daytime temperature in #2 ? Answer: upper 40s–lower 50s °F"}
+{"id": "3hop1__131829_39743_24526", "t": 1, "cond": "rec_append", "memory": "1) What is the average winter daytime temperature in #1 ? => upper 40s–lower 50s °F (8–12 °C)"}
+{"id": "3hop1__131829_39743_24526", "t": 2, "cond": "direct_cap", "memory": "1) What state is WXBX located? => North Carolina; 2) Richmond >> located in the administrative territorial entity => Piedmont; 3) What is the average winter daytime temperature in #1 's #2 ? => upper 40s–lower 50s °F"}
+{"id": "3hop1__131829_39743_24526", "t": 2, "cond": "rec_chain", "memory": "1. What is the state of WXBX? Answer: Virginia 2. What is the average winter daytime temperature in #2 ? Answer: upper 40s–lower 50s °F"}
+{"id": "3hop1__131829_39743_24526", "t": 2, "cond": "rec_append", "memory": "1) What is the average winter daytime temperature in #1 ? => upper 40s–lower 50s °F (8–12 °C) ; 2) WXBX >> located in the administrative territorial entity => Wythe County"}
+{"id": "3hop1__131829_39743_24526", "t": 3, "cond": "direct_cap", "memory": "1) What state is WXBX located? => North Carolina; 2) Richmond >> located in the administrative territorial entity => Piedmont; 3) What is the average winter daytime temperature in #1 's #2 ? => upper 40s–lower 50s °F"}
+{"id": "3hop1__131829_39743_24526", "t": 3, "cond": "rec_chain", "memory": "1. What is the state of WXBX? Answer: Virginia 2. What is the average winter daytime temperature in #2 ? Answer: upper 40s–lower 50s °F"}
+{"id": "3hop1__131829_39743_24526", "t": 3, "cond": "rec_append", "memory": "1) What is the average winter daytime temperature in #1 ? => upper 40s–lower 50s °F (8–12 °C) ; 2) WXBX >> located in the administrative territorial entity => Wythe County"}
+{"id": "3hop1__131829_39743_24526", "t": 4, "cond": "direct_cap", "memory": "1) What state is WXBX located? => North Carolina; 2) What region of #1 is Richmond in? => Piedmont; 3) What is the average winter daytime temperature in the #2 ? => upper 40s–lower 50s °F"}
+{"id": "3hop1__131829_39743_24526", "t": 4, "cond": "rec_chain", "memory": "1. What is the state of WXBX? Answer: Virginia 2. What is the average winter daytime temperature in #2 ? Answer: upper 40s–lower 50s °F"}
+{"id": "3hop1__131829_39743_24526", "t": 4, "cond": "rec_append", "memory": "1) What is the average winter daytime temperature in #1 ? => upper 40s–lower 50s °F (8–12 °C) ; 2) WXBX >> located in the administrative territorial entity => Wythe County"}
+{"id": "3hop1__131829_39743_24526", "t": 5, "cond": "direct_cap", "memory": "1) What state is WXBX located? => North Carolina; 2) What region of #1 is Richmond in? => Piedmont; 3) What is the average winter daytime temperature in the #2 ? => upper 40s–lower 50s °F"}
+{"id": "3hop1__131829_39743_24526", "t": 5, "cond": "rec_chain", "memory": "1. What is the state of WXBX? Answer: Virginia 2. What is the average winter daytime temperature in #2 ? Answer: upper 40s–lower 50s °F"}
+{"id": "3hop1__131829_39743_24526", "t": 5, "cond": "rec_append", "memory": "1) What is the average winter daytime temperature in #1 ? => upper 40s–lower 50s °F (8–12 °C) ; 2) WXBX >> located in the administrative territorial entity => Wythe County ; 3) Richmond >> located in the administrative territorial entity => Piedmont region"}
+{"id": "3hop1__135392_87694_124169", "t": 1, "cond": "direct_cap", "memory": "1) Who is the head of the catholic religion? => Peter; 2) What is the name of the #1 basilica? => St. Peter's Basilica; 3) #2 >> located in the administrative territorial entity => Vatican City; 4) On what date did Governor of #3 end? => 1952"}
+{"id": "3hop1__135392_87694_124169", "t": 1, "cond": "rec_chain", "memory": "1. #1 >> located in the administrative territorial entity: Vatican City"}
+{"id": "3hop1__135392_87694_124169", "t": 1, "cond": "rec_append", "memory": "1) What date did Governor of #2 end? => 1952"}
+{"id": "3hop1__135392_87694_124169", "t": 2, "cond": "direct_cap", "memory": "1) Who is the head of the catholic religion? => Peter; 2) What is the name of the #1 basilica? => St. Peter's Basilica; 3) #2 >> located in the administrative territorial entity => Vatican City; 4) On what date did Governor of #3 end? => 1952"}
+{"id": "3hop1__135392_87694_124169", "t": 2, "cond": "rec_chain", "memory": "1. #1 >> located in the administrative territorial entity: Vatican City"}
+{"id": "3hop1__135392_87694_124169", "t": 2, "cond": "rec_append", "memory": "1) What date did Governor of #2 end? => 1952"}
+{"id": "3hop1__135392_87694_124169", "t": 3, "cond": "direct_cap", "memory": "1) Who is the head of the catholic religion? => Peter; 2) What is the name of the #1 basilica? => St. Peter's Basilica; 3) #2 >> located in the administrative territorial entity => Vatican City; 4) On what date did Governor of #3 end? => 1952"}
+{"id": "3hop1__135392_87694_124169", "t": 3, "cond": "rec_chain", "memory": "1. #1 >> located in the administrative territorial entity: Vatican City"}
+{"id": "3hop1__135392_87694_124169", "t": 3, "cond": "rec_append", "memory": "1) What date did Governor of #2 end? => 1952"}
+{"id": "3hop1__135392_87694_124169", "t": 4, "cond": "direct_cap", "memory": "1) Who is the head of the catholic religion? => Peter; 2) What is the name of the #1 Basilica? => St. Peter's Basilica; 3) #2 >> located in the administrative territorial entity => Vatican City; 4) On what date did Governor of #3 end? => 1952"}
+{"id": "3hop1__135392_87694_124169", "t": 4, "cond": "rec_chain", "memory": "1. #1 >> located in the administrative territorial entity: Vatican City"}
+{"id": "3hop1__135392_87694_124169", "t": 4, "cond": "rec_append", "memory": "1) What date did Governor of #2 end? => 1952 ; 2) What is Bremen Cathedral named after? => Peter"}
+{"id": "3hop1__135392_87694_124169", "t": 5, "cond": "direct_cap", "memory": "1) What is the head of the catholic religion named? => Peter; 2) What is #1 's Basilica named? => St. Peter's Basilica; 3) #2 >> located in the administrative territorial entity => Vatican City; 4) On what date did Governor of #3 end? => 1952"}
+{"id": "3hop1__135392_87694_124169", "t": 5, "cond": "rec_chain", "memory": "1. #1 >> located in the administrative territorial entity: Vatican City"}
+{"id": "3hop1__135392_87694_124169", "t": 5, "cond": "rec_append", "memory": "1) What date did Governor of #2 end? => 1952 ; 2) What is Bremen Cathedral named after? => Peter ; 3) What city is #1 located? => Đakovo"}
+{"id": "3hop1__145194_160545_34751", "t": 1, "cond": "direct_cap", "memory": "1) Siddhi Savetsila >> place of birth => Thailand; 2) What year did #1 form an alliance with Japan? => 1941"}
+{"id": "3hop1__145194_160545_34751", "t": 1, "cond": "rec_chain", "memory": "1. #1 formed an alliance with Japan in 1942."}
+{"id": "3hop1__145194_160545_34751", "t": 1, "cond": "rec_append", "memory": "1) What year did #1 form an alliance with Japan? => 1918"}
+{"id": "3hop1__145194_160545_34751", "t": 2, "cond": "direct_cap", "memory": "1) Siddhi Savetsila >> place of birth => Thailand; 2) What year did #1 form an alliance with Japan? => 1941"}
+{"id": "3hop1__145194_160545_34751", "t": 2, "cond": "rec_chain", "memory": "1. #1 formed an alliance with Japan in 1942."}
+{"id": "3hop1__145194_160545_34751", "t": 2, "cond": "rec_append", "memory": "1) What year did #1 form an alliance with Japan? => 1918"}
+{"id": "3hop1__145194_160545_34751", "t": 3, "cond": "direct_cap", "memory": "1) Siddhi Savetsila >> place of birth => Thailand; 2) What year did #1 form an alliance with Japan? => 1941"}
+{"id": "3hop1__145194_160545_34751", "t": 3, "cond": "rec_chain", "memory": "1. Siddhi Savetsila >> place of birth: Bangkok. 2. #1 formed an alliance with Japan in 1942."}
+{"id": "3hop1__145194_160545_34751", "t": 3, "cond": "rec_append", "memory": "1) What year did #1 form an alliance with Japan? => 1918 ; 2) Siddhi Savetsila >> place of birth => Bangkok"}
+{"id": "3hop1__145194_160545_34751", "t": 4, "cond": "direct_cap", "memory": "1) Siddhi Savetsila >> place of birth => Thailand; 2) What year did #1 form an alliance with Japan? => 1941"}
+{"id": "3hop1__145194_160545_34751", "t": 4, "cond": "rec_chain", "memory": "1. Siddhi Savetsila >> place of birth: Bangkok. 2. #1 formed an alliance with Japan in 1942."}
+{"id": "3hop1__145194_160545_34751", "t": 4, "cond": "rec_append", "memory": "1) What year did #1 form an alliance with Japan? => 1918 ; 2) Siddhi Savetsila >> place of birth => Bangkok"}
+{"id": "3hop1__145194_160545_34751", "t": 5, "cond": "direct_cap", "memory": "1) Siddhi Savetsila >> place of birth => Thailand; 2) What year did #1 form an alliance with Japan? => 1941"}
+{"id": "3hop1__145194_160545_34751", "t": 5, "cond": "rec_chain", "memory": "1. Siddhi Savetsila >> place of birth: Bangkok. 2. #1 formed an alliance with Japan in 1942."}
+{"id": "3hop1__145194_160545_34751", "t": 5, "cond": "rec_append", "memory": "1) What year did #1 form an alliance with Japan? => 1918 ; 2) Siddhi Savetsila >> place of birth => Bangkok"}

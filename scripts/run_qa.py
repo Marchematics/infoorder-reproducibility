@@ -9,9 +9,11 @@ ROOT = Path(__file__).resolve().parents[1]
 MANIFEST = {'musique': 'manifest_500', '2wiki': 'manifest_2wiki_fixed_300', 'hotpot': 'manifest_hotpotqa_500'}
 TARGETS = {'chain': 'chain_sft_train', 'facts': 'facts_format_sft_train',
            'summary': 'summary_sft_train', 'prose': 'answer_aware_summary_sft_train',
-           'extractive': 'extractive_sft_train'}
+           'extractive': 'extractive_sft_train', 'shuffled': 'abl3_chain_shuffled',
+           'no_relation': 'abl3_chain_no_relation', 'triples': 'abl3_chain_triples', 'answer': 'abl3_direct_answer'}
 ADAPTERS = {'chain': 'chain_writer_qwen_adapter', 'facts': 'facts_format_adapter',
-            'summary': 'summary_writer_qwen_adapter', 'prose': 'prose_adapter', 'extractive': 'extractive_adapter'}
+            'summary': 'summary_writer_qwen_adapter', 'prose': 'prose_adapter', 'extractive': 'extractive_adapter', 'shuffled': 'abl3_chain_shuffled_adapter',
+            'no_relation': 'abl3_chain_no_relation_adapter', 'triples': 'abl3_chain_triples_adapter', 'answer': 'abl3_direct_answer_adapter'}
 
 def main():
     p = argparse.ArgumentParser(description=__doc__)
@@ -41,8 +43,8 @@ def main():
     if a.hops!='all':data='chain_sft_train_'+a.hops
     env.update(SOTA_SFT_DATA=str(ROOT/'sota/data'/(data+'.jsonl')),
                SOTA_ADAPTER_OUT=str(adapter),SOTA_ADAPTER=str(adapter),
-               SOTA_SEED=str(a.seed),SOTA_MAX_LEN='1536' if a.target=='prose' else '2048',
-               SOTA_SFT_STEPS=str(a.steps or (400 if a.mixed else 250 if a.target=='prose' else 300)),
+               SOTA_SEED=str(a.seed),SOTA_MAX_LEN='2048' if a.mixed or a.target in ('facts','summary','extractive') else '1536',
+               SOTA_SFT_STEPS=str(a.steps or (400 if a.mixed else 300)),
                SOTA_GEN_MANIFEST=str(manifest),SOTA_GEN_OUT=str(memory),
                SOTA_GEN_MAXNEW=str(a.max_new_tokens or (160 if a.target in ('prose','summary','extractive') else 128)),SOTA_GEN_BUDGET=str(a.budget),
                SOTA_MEMORY_FILE=str(memory),SOTA_MEMORY_MANIFEST=str(manifest))

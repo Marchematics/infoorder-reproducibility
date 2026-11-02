@@ -5,5 +5,8 @@
   "manifest_2wiki_fixed_300.jsonl": "0717bcf509bd6dee38c29c4894a2f36bf19d6be1e80d8b365dd1d841786e61bf",
   "manifest_500.jsonl": "b8f95e991ace48f4c93985d1294fe027588745b45e253122ad6dab9aa6241de4",
   "simple_lookup_200.jsonl": "25cec94e08b05c9736d49ce253890efb82fb820529d7a8c763e0c544da0ae7e2",
-  "controlled_bothcorrect_200.jsonl": "b6d6bacb2d2891c2d9d35ebbe1e380dd5573615dbeac8dc2ceb7c44601e20634"
+  "controlled_bothcorrect_200.jsonl": "b6d6bacb2d2891c2d9d35ebbe1e380dd5573615dbeac8dc2ceb7c44601e20634",
+  "update_sft.jsonl": "4656ba41eab153cb1137181ab7ba7aea5ab648ec22dd512505464f82a9d37966",
+  "append_sft.jsonl": "871d913a4e6045a08cda4a22b6499b7819f9852fcc1b83434b40393710dba99c",
+  "manifest_recursive_100.jsonl": "e737444ec836ffa0af75d82b24564ae0ccc86958956dac780a6e267491e141bf"
 }

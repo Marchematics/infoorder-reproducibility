@@ -13,7 +13,7 @@ DATA = os.environ.get("SOTA_SFT_DATA", BASE + "/sota/data/chain_sft_train.jsonl"
 OUT = os.environ.get("SOTA_ADAPTER_OUT", BASE + "/sota/infoorder/chain_writer_qwen_adapter")
 STEPS = int(os.environ.get("SOTA_SFT_STEPS", "300"))
 SEED = int(os.environ.get("SOTA_SEED", "20261027"))
-MAXLEN = int(os.environ.get("SOTA_MAX_LEN", "2048"))
+MAXLEN = int(os.environ.get("SOTA_MAX_LEN", "1536"))
 SYSTEM = ("You write compact memory for a multi-hop question. Read the evidence and "
           "write the fact chain that answers the question, as numbered hops: "
           "'1) sub-question => answer; 2) sub-question => answer'. "
