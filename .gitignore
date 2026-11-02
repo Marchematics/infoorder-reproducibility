@@ -10,3 +10,5 @@ results/*.json
 results/*.csv
 *.log
 .DS_Store
+
+sota/data/ablation_v3/
