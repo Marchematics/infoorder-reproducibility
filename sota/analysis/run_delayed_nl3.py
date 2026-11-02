@@ -1,4 +1,4 @@
-"""Write without a query and evaluate later subquestions."""
+"""Write one question-free memory and answer subsequent subquestions."""
 import json, os, sys, statistics, time
 BASE = str(__import__("pathlib").Path(__file__).resolve().parents[2])
 for p in (BASE + "/deps", BASE + "/deps_fla", BASE + "/sota/harness"):
@@ -80,7 +80,7 @@ def main():
         writer.set_adapter("chain")
         mems["chain_with_parentQ"] = cap(tok, gen(tok, writer, CHAIN_Q,
                                                   "Question: %s\n\nEvidence:\n%s\n\nMemory:" % (r["question"], ev)), BUDGET)
-                                                                      
+
         tbl = gen(tok, writer, "List every entity mentioned in the evidence with its value, "
                                "one line per entity as 'name = value'. No commentary.",
                   "Evidence:\n%s\n\nTable:" % ev, 128)

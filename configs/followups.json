@@ -1,9 +1,9 @@
 {
   "future_queries": {
-    "candidate_histories": 200,
-    "eligible_histories": 79,
-    "queries": 159,
-    "prefix_passages": 12,
+    "candidate_histories": 250,
+    "eligible_histories": 181,
+    "queries": 397,
+    "prefix_passages": 16,
     "memory_cap": 128
   },
   "target_comparisons": {
@@ -36,5 +36,51 @@
       "chain_table"
     ],
     "summary_and_facts": "Initial and update adapter order differs from the accuracy run."
+  },
+  "future_coverage": {
+    "candidate_histories": 500,
+    "eligible_histories": 419,
+    "queries": 1120,
+    "prefix_passages": 16,
+    "memory_cap": 128
+  },
+  "reader_cap_scan": {
+    "caps": [
+      64,
+      96,
+      256
+    ],
+    "direct_input": "First B + current-block tokens",
+    "persistent_state": "Generated text before reader truncation"
+  },
+  "matched_summaries": {
+    "targets": [
+      "reasoning",
+      "summary_matched"
+    ],
+    "steps": 300,
+    "training_records": 1917,
+    "training_tokens": 1536,
+    "lora_rank": 16
+  },
+  "simplemem": {
+    "n": 100,
+    "backend": "deepseek-v4.1-flash",
+    "embedding": "Qwen2.5-0.5B mean pool",
+    "dialogue_unit": "passage",
+    "window": 6,
+    "retrieval_top_k": 8,
+    "offsets": [
+      0,
+      25,
+      50,
+      75
+    ],
+    "questions_per_shard": 25
+  },
+  "automatic_chain_snapshot": {
+    "training_records": 299,
+    "steps": 150,
+    "evaluation_questions": 500
   }
 }

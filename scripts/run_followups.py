@@ -18,8 +18,8 @@ if __name__ == '__main__':
     p.add_argument('--preview', action='store_true')
     a = p.parse_args()
     env = os.environ.copy()
-    defaults = {'DN_N':'200','DN_PREFIX':'12','DN_BUDGET':'128',
-                'DN_OUT':str(ROOT/'sota/results/delayed_nl_noq.jsonl'),
+    defaults = {'DN_N':'250','DN_PREFIX':'16','DN_BUDGET':'128',
+                'DN_OUT':str(ROOT/'sota/results/delayed_nl_250.jsonl'),
                 'RF_LIMIT':'40','RF_T':'5','RF_BUDGET':'128','RF_EQUAL_INPUT':'1',
                 'RT_LIMIT':'40','RT_T':'5','RT_BUDGET':'128',
                 'CF_PER_FAMILY':'15','CF_BUDGET':'128',

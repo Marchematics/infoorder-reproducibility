@@ -44,3 +44,8 @@ python scripts/run_followups.py retention
 `run_followups.py lengths` measures lookup memory lengths.
 `analyze_followups.py` aggregates recorded scores; `score_retention.py` verifies coverage from saved memories on CPU.
 The experiment settings are in `configs/followups.json`.
+
+Matched summary targets use `run_qa.py --target reasoning` or `--target summary_matched`
+for each training, writing, and evaluation stage. `analyze_review.py` aggregates the
+additional recorded results on CPU. Review experiment settings are in `configs/followups.json`;
+their runners are in `sota/analysis/`.

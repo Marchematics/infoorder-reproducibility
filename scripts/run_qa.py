@@ -10,10 +10,12 @@ MANIFEST = {'musique': 'manifest_500', '2wiki': 'manifest_2wiki_fixed_300', 'hot
 TARGETS = {'chain': 'chain_sft_train', 'facts': 'facts_format_sft_train',
            'summary': 'summary_sft_train', 'prose': 'answer_aware_summary_sft_train',
            'extractive': 'extractive_sft_train', 'shuffled': 'abl3_chain_shuffled',
-           'no_relation': 'abl3_chain_no_relation', 'triples': 'abl3_chain_triples', 'answer': 'abl3_direct_answer'}
+           'no_relation': 'abl3_chain_no_relation', 'triples': 'abl3_chain_triples', 'answer': 'abl3_direct_answer',
+           'reasoning': 'reasoning_summary_sft_train', 'summary_matched': 'summary_matched_sft_train'}
 ADAPTERS = {'chain': 'chain_writer_qwen_adapter', 'facts': 'facts_format_adapter',
             'summary': 'summary_writer_qwen_adapter', 'prose': 'prose_adapter', 'extractive': 'extractive_adapter', 'shuffled': 'abl3_chain_shuffled_adapter',
-            'no_relation': 'abl3_chain_no_relation_adapter', 'triples': 'abl3_chain_triples_adapter', 'answer': 'abl3_direct_answer_adapter'}
+            'no_relation': 'abl3_chain_no_relation_adapter', 'triples': 'abl3_chain_triples_adapter', 'answer': 'abl3_direct_answer_adapter',
+            'reasoning': 'reasoning_summ_adapter', 'summary_matched': 'summ_matched_adapter'}
 
 def main():
     p = argparse.ArgumentParser(description=__doc__)
@@ -46,8 +48,12 @@ def main():
                SOTA_SEED=str(a.seed),SOTA_MAX_LEN='2048' if a.mixed or a.target in ('facts','summary','extractive') else '1536',
                SOTA_SFT_STEPS=str(a.steps or (400 if a.mixed else 300)),
                SOTA_GEN_MANIFEST=str(manifest),SOTA_GEN_OUT=str(memory),
-               SOTA_GEN_MAXNEW=str(a.max_new_tokens or (160 if a.target in ('prose','summary','extractive') else 128)),SOTA_GEN_BUDGET=str(a.budget),
+               SOTA_GEN_MAXNEW=str(a.max_new_tokens or (160 if a.target in ('prose','summary','extractive','reasoning','summary_matched') else 128)),SOTA_GEN_BUDGET=str(a.budget),
                SOTA_MEMORY_FILE=str(memory),SOTA_MEMORY_MANIFEST=str(manifest))
+    prompts = {
+        'reasoning': 'You write a compact reasoning-style summary for a multi-hop question. Restate the reasoning that leads to the answer as a few fluent prose sentences. Use only information present in the evidence. Be terse.',
+        'summary_matched': 'You write a compact abstractive summary of the evidence for a multi-hop question. Summarize the facts needed to answer the question in a few fluent sentences. Use only information present in the evidence. Be terse.'}
+    if a.target in prompts: env['SOTA_SYSTEM'] = prompts[a.target]
     if a.stage=='train':cmd=['sota/infoorder/train_chain_writer.py']
     elif a.stage=='write':cmd=['sota/infoorder/gen_chain_memories.py']
     elif a.stage=='table':cmd=['sota/analysis/gen_chain_table.py']
